@@ -1,0 +1,4902 @@
+{
+  "summary": [
+    {
+      "noise": 0,
+      "mode": "unpenalized",
+      "n": 60,
+      "holdHits": 49,
+      "extraHits": 37,
+      "finiteHold": 59,
+      "finiteExtra": 59,
+      "medianHold": 3.119962228817508e-33,
+      "medianExtra": 1.1795797382199079e-32,
+      "meanNodes": 8.483333333333333
+    },
+    {
+      "noise": 0,
+      "mode": "fixed",
+      "n": 60,
+      "holdHits": 48,
+      "extraHits": 40,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 8.959362343810929e-33,
+      "medianExtra": 1.2181077880908441e-32,
+      "meanNodes": 8.033333333333333
+    },
+    {
+      "noise": 0,
+      "mode": "anneal",
+      "n": 60,
+      "holdHits": 50,
+      "extraHits": 42,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 2.2832631709208876e-32,
+      "medianExtra": 3.7122877076648264e-32,
+      "meanNodes": 7.716666666666667
+    },
+    {
+      "noise": 0,
+      "mode": "pareto",
+      "n": 60,
+      "holdHits": 51,
+      "extraHits": 47,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 0,
+      "medianExtra": 0,
+      "meanNodes": 6.7
+    },
+    {
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "n": 60,
+      "holdHits": 47,
+      "extraHits": 38,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 0.000873299963033414,
+      "medianExtra": 0.0006478432177891226,
+      "meanNodes": 10.066666666666666
+    },
+    {
+      "noise": 0.05,
+      "mode": "fixed",
+      "n": 60,
+      "holdHits": 50,
+      "extraHits": 42,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 0.00016921667776855049,
+      "medianExtra": 0.0001594987572506896,
+      "meanNodes": 7.633333333333334
+    },
+    {
+      "noise": 0.05,
+      "mode": "anneal",
+      "n": 60,
+      "holdHits": 50,
+      "extraHits": 38,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 0.0006219750642863955,
+      "medianExtra": 0.0005791617821196623,
+      "meanNodes": 8.55
+    },
+    {
+      "noise": 0.05,
+      "mode": "pareto",
+      "n": 60,
+      "holdHits": 48,
+      "extraHits": 39,
+      "finiteHold": 60,
+      "finiteExtra": 60,
+      "medianHold": 0.000248852401905129,
+      "medianExtra": 0.00017764840614635074,
+      "meanNodes": 7.516666666666667
+    }
+  ],
+  "runs": [
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1799
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1734
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1799
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1810
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00003154901468195736,
+      "extra": 0.000031549014681957634,
+      "nodes": 4,
+      "validCount": 1755
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00003154901468195736,
+      "extra": 0.000031549014681957634,
+      "nodes": 4,
+      "validCount": 1774
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00003154901468195736,
+      "extra": 0.000031549014681957634,
+      "nodes": 4,
+      "validCount": 1751
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00003154901468195736,
+      "extra": 0.000031549014681957634,
+      "nodes": 4,
+      "validCount": 1824
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1782
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1805
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1801
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1771
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.000047023127660641525,
+      "extra": 0.00004702312766064169,
+      "nodes": 8,
+      "validCount": 1823
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000047023127660640875,
+      "extra": 0.000047023127660640814,
+      "nodes": 4,
+      "validCount": 1716
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.000047023127660641525,
+      "extra": 0.00004702312766064169,
+      "nodes": 8,
+      "validCount": 1807
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.000047023127660640875,
+      "extra": 0.000047023127660640814,
+      "nodes": 6,
+      "validCount": 1852
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1772
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1771
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.005743274584891531,
+      "extra": 0.00040181666990062883,
+      "nodes": 5,
+      "validCount": 1805
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1784
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0026268096224712537,
+      "extra": 0.00013887676503785378,
+      "nodes": 11,
+      "validCount": 1792
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000013410493537383362,
+      "extra": 0.000013410493537383313,
+      "nodes": 4,
+      "validCount": 1771
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0026268096224712537,
+      "extra": 0.00013887676503785378,
+      "nodes": 11,
+      "validCount": 1790
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.000013410493537383362,
+      "extra": 0.000013410493537383313,
+      "nodes": 4,
+      "validCount": 1807
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.017523428117340742,
+      "extra": 3.4382338417035543,
+      "nodes": 11,
+      "validCount": 1831
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.0004375774543252993,
+      "extra": 0.0004311960721586201,
+      "nodes": 9,
+      "validCount": 1777
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.00018824656029303247,
+      "extra": 0.004198627084719803,
+      "nodes": 11,
+      "validCount": 1817
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.0004375774543252993,
+      "extra": 0.0004311960721586201,
+      "nodes": 9,
+      "validCount": 1795
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0032446167547656515,
+      "extra": 0.00024858088500959527,
+      "nodes": 5,
+      "validCount": 1809
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0016883997422588559,
+      "extra": 0.00015129326540254555,
+      "nodes": 5,
+      "validCount": 1815
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0032446167547656515,
+      "extra": 0.00024858088500959527,
+      "nodes": 5,
+      "validCount": 1819
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.08222327558242754,
+      "extra": 3.5819976730752447,
+      "nodes": 9,
+      "validCount": 1853
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1748
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1771
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1721
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1838
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.002147355112832541,
+      "extra": 0.0006712976225202198,
+      "nodes": 5,
+      "validCount": 1806
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00005627999251027425,
+      "extra": 0.00005627999251027435,
+      "nodes": 6,
+      "validCount": 1710
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0005482864182540101,
+      "extra": 0.00016441265601042888,
+      "nodes": 10,
+      "validCount": 1786
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00005627999251027425,
+      "extra": 0.00005627999251027435,
+      "nodes": 6,
+      "validCount": 1739
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.004955377155010112,
+      "extra": 1.865871378498432,
+      "nodes": 13,
+      "validCount": 1801
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.01716960897368621,
+      "extra": 0.009996037452320613,
+      "nodes": 13,
+      "validCount": 1830
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.00548183160764673,
+      "extra": 3.9736816443305387,
+      "nodes": 7,
+      "validCount": 1825
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.0023496838547779593,
+      "extra": 0.00042376401186983414,
+      "nodes": 5,
+      "validCount": 1837
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.024996189190471314,
+      "extra": 0.2250398687230169,
+      "nodes": 7,
+      "validCount": 1792
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.01812304132696392,
+      "extra": 0.961191679807669,
+      "nodes": 12,
+      "validCount": 1838
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.020779910195910738,
+      "extra": 0.013946171823595425,
+      "nodes": 12,
+      "validCount": 1758
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0005064119118731603,
+      "extra": 0.0005064119118731597,
+      "nodes": 4,
+      "validCount": 1783
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1807
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.021006101592684488,
+      "extra": 2.6358756375908956,
+      "nodes": 8,
+      "validCount": 1709
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.024562045751539995,
+      "extra": 3.0497242491936456,
+      "nodes": 12,
+      "validCount": 1795
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.06400494527879347,
+      "extra": 3.9363824517198838,
+      "nodes": 5,
+      "validCount": 1832
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0005339347511812993,
+      "extra": 0.000533934751181299,
+      "nodes": 4,
+      "validCount": 1769
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0005339347511812993,
+      "extra": 0.000533934751181299,
+      "nodes": 4,
+      "validCount": 1777
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0005339347511812993,
+      "extra": 0.000533934751181299,
+      "nodes": 4,
+      "validCount": 1756
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0005339347511812993,
+      "extra": 0.000533934751181299,
+      "nodes": 4,
+      "validCount": 1790
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0014172305011535679,
+      "extra": 0.0009769507312686783,
+      "nodes": 5,
+      "validCount": 1820
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.005622157629522771,
+      "extra": 0.2505231913392834,
+      "nodes": 15,
+      "validCount": 1768
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0014172305011535679,
+      "extra": 0.0009769507312686783,
+      "nodes": 5,
+      "validCount": 1838
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.0014172305011535679,
+      "extra": 0.0009769507312686783,
+      "nodes": 5,
+      "validCount": 1773
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00006924753146377849,
+      "extra": 0.00006924753146377847,
+      "nodes": 4,
+      "validCount": 1791
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0009486976682570015,
+      "extra": 0.0007672183842885709,
+      "nodes": 11,
+      "validCount": 1796
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00006924753146377849,
+      "extra": 0.00006924753146377847,
+      "nodes": 4,
+      "validCount": 1781
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00006924753146377849,
+      "extra": 0.00006924753146377847,
+      "nodes": 4,
+      "validCount": 1765
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": null,
+      "extra": null,
+      "nodes": 8,
+      "validCount": 1780
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.005126606060218112,
+      "extra": 0.002761885190195739,
+      "nodes": 6,
+      "validCount": 1759
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.008888537687001773,
+      "extra": 0.0007164596392481571,
+      "nodes": 8,
+      "validCount": 1759
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.002209324166440849,
+      "extra": 0.0011609461754520998,
+      "nodes": 7,
+      "validCount": 1834
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.008175085877069015,
+      "extra": 0.0022493867273615823,
+      "nodes": 12,
+      "validCount": 1761
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000075003744065303,
+      "extra": 0.00007500374406530291,
+      "nodes": 4,
+      "validCount": 1800
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.008175085877069015,
+      "extra": 0.0022493867273615823,
+      "nodes": 12,
+      "validCount": 1759
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.000075003744065303,
+      "extra": 0.00007500374406530291,
+      "nodes": 4,
+      "validCount": 1792
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0022071465715618414,
+      "extra": 0.0012498130228392366,
+      "nodes": 5,
+      "validCount": 1669
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1760
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0022071465715618414,
+      "extra": 0.0012498130228392366,
+      "nodes": 5,
+      "validCount": 1691
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1813
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00001888402878273861,
+      "extra": 0.000018884028782738563,
+      "nodes": 4,
+      "validCount": 1744
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00001888402878273861,
+      "extra": 0.000018884028782738563,
+      "nodes": 4,
+      "validCount": 1678
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00001888402878273861,
+      "extra": 0.000018884028782738563,
+      "nodes": 4,
+      "validCount": 1729
+    },
+    {
+      "name": "sin(sum)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00001888402878273861,
+      "extra": 0.000018884028782738563,
+      "nodes": 4,
+      "validCount": 1804
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1764
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 8.037377962228331e-33,
+      "extra": 2.609619131400123e-32,
+      "nodes": 7,
+      "validCount": 1758
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1762
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1739
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 6.026455907638335e-8,
+      "extra": 6.026455907637322e-8,
+      "nodes": 12,
+      "validCount": 1761
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0052872153427589485,
+      "extra": 0.106558422231857,
+      "nodes": 13,
+      "validCount": 1734
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 6.026455907627469e-8,
+      "extra": 6.026455907625945e-8,
+      "nodes": 9,
+      "validCount": 1748
+    },
+    {
+      "name": "product",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 6.026455907619169e-8,
+      "extra": 6.02645590761799e-8,
+      "nodes": 5,
+      "validCount": 1743
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 7,
+      "validCount": 1766
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 8.078278214130314e-33,
+      "extra": 9.513194234491592e-33,
+      "nodes": 5,
+      "validCount": 1724
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 3.898891221403173e-33,
+      "extra": 8.918619594835867e-33,
+      "nodes": 5,
+      "validCount": 1776
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1834
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00011927761837845221,
+      "extra": 0.00011927761837845317,
+      "nodes": 7,
+      "validCount": 1702
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00011927761837845358,
+      "extra": 0.00011927761837845286,
+      "nodes": 5,
+      "validCount": 1746
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00011927761837845354,
+      "extra": 0.0001192776183784533,
+      "nodes": 5,
+      "validCount": 1696
+    },
+    {
+      "name": "product",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00011927761837845354,
+      "extra": 0.0001192776183784533,
+      "nodes": 5,
+      "validCount": 1742
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 7,
+      "validCount": 1700
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 2.312143054019789e-33,
+      "extra": 1.1890518621185249e-32,
+      "nodes": 5,
+      "validCount": 1720
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 2.312143054019789e-33,
+      "extra": 1.1890518621185249e-32,
+      "nodes": 5,
+      "validCount": 1714
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 2.312143054019789e-33,
+      "extra": 1.1890518621185249e-32,
+      "nodes": 5,
+      "validCount": 1730
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00007301808738555716,
+      "extra": 0.00007301808738555739,
+      "nodes": 12,
+      "validCount": 1752
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00007301808738555379,
+      "extra": 0.00007301808738555364,
+      "nodes": 7,
+      "validCount": 1784
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00007301808738555379,
+      "extra": 0.00007301808738555364,
+      "nodes": 5,
+      "validCount": 1752
+    },
+    {
+      "name": "product",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00007301808738555716,
+      "extra": 0.00007301808738555739,
+      "nodes": 5,
+      "validCount": 1690
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.004220142944922775,
+      "extra": 0.18908711837724976,
+      "nodes": 8,
+      "validCount": 1734
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.012294582407963212,
+      "extra": 0.6121116940008388,
+      "nodes": 8,
+      "validCount": 1762
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.004220142944922775,
+      "extra": 0.18908711837724976,
+      "nodes": 8,
+      "validCount": 1718
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.006702399535668509,
+      "extra": 0.007473569240765585,
+      "nodes": 12,
+      "validCount": 1801
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00036580168580072433,
+      "extra": 0.00036580168580072477,
+      "nodes": 11,
+      "validCount": 1809
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000365801685800736,
+      "extra": 0.0003658016858007365,
+      "nodes": 5,
+      "validCount": 1738
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0006195613155147652,
+      "extra": 0.4801749904050942,
+      "nodes": 12,
+      "validCount": 1778
+    },
+    {
+      "name": "product",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.012220927708677408,
+      "extra": 0.7949692168931966,
+      "nodes": 14,
+      "validCount": 1758
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1758
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1738
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1757
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.03217973783035134,
+      "extra": 0.08787569311390156,
+      "nodes": 12,
+      "validCount": 1746
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0006243888130580258,
+      "extra": 0.0006243888130580256,
+      "nodes": 5,
+      "validCount": 1740
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0006243888130580258,
+      "extra": 0.0006243888130580256,
+      "nodes": 5,
+      "validCount": 1728
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0006243888130580258,
+      "extra": 0.0006243888130580256,
+      "nodes": 5,
+      "validCount": 1749
+    },
+    {
+      "name": "product",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0006243888130580258,
+      "extra": 0.0006243888130580256,
+      "nodes": 5,
+      "validCount": 1784
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 7,
+      "validCount": 1736
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1805
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 3.0585261868206786e-32,
+      "extra": 3.4716419821754025e-32,
+      "nodes": 7,
+      "validCount": 1735
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 4.6331313126501926e-32,
+      "extra": 6.392229681465821e-32,
+      "nodes": 5,
+      "validCount": 1773
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00001437609154863752,
+      "extra": 0.000014376091548637685,
+      "nodes": 8,
+      "validCount": 1795
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000014376091548637033,
+      "extra": 0.000014376091548637023,
+      "nodes": 5,
+      "validCount": 1749
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.000014376091548638432,
+      "extra": 0.000014376091548638695,
+      "nodes": 5,
+      "validCount": 1788
+    },
+    {
+      "name": "product",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.000014376091548637033,
+      "extra": 0.000014376091548637023,
+      "nodes": 5,
+      "validCount": 1754
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1807
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 6.90060551352305e-33,
+      "extra": 1.211817741942318e-32,
+      "nodes": 5,
+      "validCount": 1791
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 6.90060551352305e-33,
+      "extra": 1.211817741942318e-32,
+      "nodes": 5,
+      "validCount": 1779
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 6.90060551352305e-33,
+      "extra": 1.211817741942318e-32,
+      "nodes": 5,
+      "validCount": 1742
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 6.12513917344334e-8,
+      "extra": 6.125139173443668e-8,
+      "nodes": 10,
+      "validCount": 1780
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 6.125139173438773e-8,
+      "extra": 6.125139173437886e-8,
+      "nodes": 5,
+      "validCount": 1791
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 6.125139173438773e-8,
+      "extra": 6.125139173437886e-8,
+      "nodes": 5,
+      "validCount": 1760
+    },
+    {
+      "name": "product",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0011521069866216344,
+      "extra": 0.008158663766018254,
+      "nodes": 12,
+      "validCount": 1781
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 7,
+      "validCount": 1709
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 1.5080001550210968e-32,
+      "extra": 1.1318349318515118e-32,
+      "nodes": 5,
+      "validCount": 1753
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 1.5080001550210968e-32,
+      "extra": 1.1318349318515118e-32,
+      "nodes": 5,
+      "validCount": 1713
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1725
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00031313709795582396,
+      "extra": 0.00031313709795582467,
+      "nodes": 8,
+      "validCount": 1738
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00031313709795582396,
+      "extra": 0.00031313709795582467,
+      "nodes": 5,
+      "validCount": 1733
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00031313709795582396,
+      "extra": 0.00031313709795582467,
+      "nodes": 5,
+      "validCount": 1758
+    },
+    {
+      "name": "product",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00031313709795582396,
+      "extra": 0.00031313709795582467,
+      "nodes": 13,
+      "validCount": 1739
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 1.0418034407311801e-32,
+      "extra": 1.1795797382199079e-32,
+      "nodes": 7,
+      "validCount": 1686
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 1.2157915847447377e-32,
+      "extra": 8.508444013389499e-33,
+      "nodes": 5,
+      "validCount": 1683
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 1.0418034407311801e-32,
+      "extra": 1.1795797382199079e-32,
+      "nodes": 7,
+      "validCount": 1688
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 1.2938885357508233e-32,
+      "extra": 9.47531265127467e-33,
+      "nodes": 5,
+      "validCount": 1761
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.004920443213551531,
+      "extra": 0.031938583442613674,
+      "nodes": 11,
+      "validCount": 1669
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00007459568293156904,
+      "extra": 0.0000745956829315694,
+      "nodes": 5,
+      "validCount": 1698
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.004681208134248827,
+      "extra": 0.03358394097337054,
+      "nodes": 15,
+      "validCount": 1684
+    },
+    {
+      "name": "product",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.006661862385345599,
+      "extra": 0.11245455411712113,
+      "nodes": 14,
+      "validCount": 1768
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 13,
+      "validCount": 1723
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 6.999080345924592e-33,
+      "extra": 1.0530754678669182e-32,
+      "nodes": 5,
+      "validCount": 1758
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 6.999080345924592e-33,
+      "extra": 1.0530754678669182e-32,
+      "nodes": 7,
+      "validCount": 1753
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 6.681885768583285e-32,
+      "extra": 6.014681037624513e-32,
+      "nodes": 9,
+      "validCount": 1762
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0010571881332682952,
+      "extra": 0.000047183819274115467,
+      "nodes": 15,
+      "validCount": 1750
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0001707291064382672,
+      "extra": 0.00017072910643826768,
+      "nodes": 5,
+      "validCount": 1771
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0001707291064382672,
+      "extra": 0.00017072910643826768,
+      "nodes": 5,
+      "validCount": 1750
+    },
+    {
+      "name": "product",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0001707291064382672,
+      "extra": 0.00017072910643826768,
+      "nodes": 5,
+      "validCount": 1755
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0017908113526494006,
+      "extra": 0.010282931664918676,
+      "nodes": 15,
+      "validCount": 1716
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.0004076622937236137,
+      "extra": 0.0052472832599207,
+      "nodes": 11,
+      "validCount": 1848
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0005967200347381968,
+      "extra": 0.04300028164871207,
+      "nodes": 12,
+      "validCount": 1726
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.005411830600545908,
+      "extra": 0.05798219519917178,
+      "nodes": 7,
+      "validCount": 1800
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.021480556240177723,
+      "extra": 0.13279011514934777,
+      "nodes": 14,
+      "validCount": 1828
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000048948016903077475,
+      "extra": 0.000048948016903077604,
+      "nodes": 6,
+      "validCount": 1797
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.009750991002078718,
+      "extra": 0.011069756771862685,
+      "nodes": 12,
+      "validCount": 1861
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00004894801690307757,
+      "extra": 0.00004894801690307749,
+      "nodes": 5,
+      "validCount": 1892
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0015949209744220178,
+      "extra": 0.05643665102922881,
+      "nodes": 10,
+      "validCount": 1782
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.004061932785856321,
+      "extra": 0.018878498987931303,
+      "nodes": 12,
+      "validCount": 1871
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0047898428125508945,
+      "extra": 0.10137618596283807,
+      "nodes": 12,
+      "validCount": 1776
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 8.00202785640737e-33,
+      "extra": 7.648717240770777e-33,
+      "nodes": 5,
+      "validCount": 1805
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00010539301079233457,
+      "extra": 0.00010539301079233445,
+      "nodes": 8,
+      "validCount": 1788
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00010539301079233862,
+      "extra": 0.0001053930107923386,
+      "nodes": 8,
+      "validCount": 1821
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00010539301079233457,
+      "extra": 0.00010539301079233445,
+      "nodes": 4,
+      "validCount": 1827
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00010539301079233457,
+      "extra": 0.00010539301079233445,
+      "nodes": 4,
+      "validCount": 1851
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.006445277975034632,
+      "extra": 0.014671705809633328,
+      "nodes": 12,
+      "validCount": 1796
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.005077282993254809,
+      "extra": 0.0031035839466976283,
+      "nodes": 15,
+      "validCount": 1767
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.00550910116226881,
+      "extra": 0.14719241604791006,
+      "nodes": 11,
+      "validCount": 1764
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.012240697903212095,
+      "extra": 0.6385853373100735,
+      "nodes": 11,
+      "validCount": 1807
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00044787096328316624,
+      "extra": 0.0011376907708560001,
+      "nodes": 13,
+      "validCount": 1809
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0002655633803439687,
+      "extra": 0.013234094563438797,
+      "nodes": 11,
+      "validCount": 1769
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0067233620446503686,
+      "extra": 1.2110870165564707,
+      "nodes": 11,
+      "validCount": 1795
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.004698874037899902,
+      "extra": 0.46719027078094966,
+      "nodes": 11,
+      "validCount": 1775
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1743
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1705
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 7,
+      "validCount": 1743
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 1.5466820694363834e-31,
+      "extra": 2.4840941158174433e-31,
+      "nodes": 6,
+      "validCount": 1743
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00017852772213754897,
+      "extra": 0.000051532733326851094,
+      "nodes": 14,
+      "validCount": 1786
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0032884970384252678,
+      "extra": 1.0383629092033604,
+      "nodes": 13,
+      "validCount": 1729
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0055308667862898515,
+      "extra": 1.3815354202944814,
+      "nodes": 13,
+      "validCount": 1809
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0000010551695639767894,
+      "extra": 0.000001055169563976759,
+      "nodes": 4,
+      "validCount": 1818
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.004341385607018922,
+      "extra": 1.0960502072746627,
+      "nodes": 13,
+      "validCount": 1797
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.013516490862514809,
+      "extra": 1.2256461221504895,
+      "nodes": 14,
+      "validCount": 1786
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0035853559011639656,
+      "extra": 2.9411346780894125,
+      "nodes": 11,
+      "validCount": 1788
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.00840747321539583,
+      "extra": 2.4021088807683495,
+      "nodes": 7,
+      "validCount": 1832
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.05354527309080422,
+      "extra": 1.108787747090378,
+      "nodes": 12,
+      "validCount": 1734
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00003831312271383043,
+      "extra": 0.00003831312271383074,
+      "nodes": 4,
+      "validCount": 1785
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.010155196919875223,
+      "extra": 0.9005932915893208,
+      "nodes": 13,
+      "validCount": 1743
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.007584831803410954,
+      "extra": 0.01265737323688993,
+      "nodes": 8,
+      "validCount": 1794
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.021027304267435102,
+      "extra": 0.027760906863486336,
+      "nodes": 12,
+      "validCount": 1848
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 2.2627916606896536e-32,
+      "extra": 4.686711495596057e-32,
+      "nodes": 6,
+      "validCount": 1756
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 3.6719308717689507e-32,
+      "extra": 3.95293343315425e-32,
+      "nodes": 9,
+      "validCount": 1847
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.008731497003662788,
+      "extra": 0.05354532728545947,
+      "nodes": 11,
+      "validCount": 1823
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00661570294891772,
+      "extra": 0.04367801428110567,
+      "nodes": 13,
+      "validCount": 1794
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00026431006632307065,
+      "extra": 0.0002643100663230704,
+      "nodes": 4,
+      "validCount": 1814
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.006112665660274586,
+      "extra": 0.22871671932786164,
+      "nodes": 13,
+      "validCount": 1761
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.006565579940355621,
+      "extra": 0.08840774955476047,
+      "nodes": 12,
+      "validCount": 1755
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.00946393564569587,
+      "extra": 0.030516324459476732,
+      "nodes": 5,
+      "validCount": 1751
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.006448119864996067,
+      "extra": 0.2023683858570744,
+      "nodes": 14,
+      "validCount": 1779
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.00946393564569587,
+      "extra": 0.030516324459476732,
+      "nodes": 5,
+      "validCount": 1729
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.02719179603741364,
+      "extra": 0.01456144338166749,
+      "nodes": 12,
+      "validCount": 1795
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.010465994378510793,
+      "extra": 0.027764312093218217,
+      "nodes": 9,
+      "validCount": 1786
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.008843177000131573,
+      "extra": 0.009241291399721345,
+      "nodes": 14,
+      "validCount": 1757
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.008180525674329989,
+      "extra": 0.02738498527245199,
+      "nodes": 13,
+      "validCount": 1753
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.005194809412058353,
+      "extra": 0.03406260943711439,
+      "nodes": 11,
+      "validCount": 1790
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.00784520714056821,
+      "extra": 1.0967307291645247,
+      "nodes": 15,
+      "validCount": 1767
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.007574179921875113,
+      "extra": 0.06446827213326271,
+      "nodes": 14,
+      "validCount": 1753
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.013585880140809461,
+      "extra": 0.0354903611162417,
+      "nodes": 14,
+      "validCount": 1794
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.016314058389212623,
+      "extra": 0.08394440174481234,
+      "nodes": 13,
+      "validCount": 1782
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0071199907898185765,
+      "extra": 0.19853276917487167,
+      "nodes": 8,
+      "validCount": 1758
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.02218070802176501,
+      "extra": 0.11336341910431294,
+      "nodes": 15,
+      "validCount": 1788
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0071199907898185765,
+      "extra": 0.19853276917487167,
+      "nodes": 8,
+      "validCount": 1772
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.008157369323587306,
+      "extra": 0.07076927476690557,
+      "nodes": 4,
+      "validCount": 1819
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.004986902473511123,
+      "extra": 0.07607365512050185,
+      "nodes": 8,
+      "validCount": 1703
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 9.840446473491543e-33,
+      "extra": 1.2890722725749e-32,
+      "nodes": 7,
+      "validCount": 1747
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.004986902473511123,
+      "extra": 0.07607365512050185,
+      "nodes": 9,
+      "validCount": 1694
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.008031313912907331,
+      "extra": 0.0873038562021773,
+      "nodes": 14,
+      "validCount": 1745
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.018353308080458902,
+      "extra": 0.481516163658503,
+      "nodes": 8,
+      "validCount": 1656
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0000262626788916005,
+      "extra": 0.00002626267889160028,
+      "nodes": 7,
+      "validCount": 1668
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.01613425458905353,
+      "extra": 0.20528358562624607,
+      "nodes": 12,
+      "validCount": 1643
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0000262626788916005,
+      "extra": 0.00002626267889160028,
+      "nodes": 7,
+      "validCount": 1726
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1763
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1782
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1729
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1793
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00001695687309640168,
+      "extra": 0.000016956873096401497,
+      "nodes": 4,
+      "validCount": 1777
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00001695687309640168,
+      "extra": 0.000016956873096401497,
+      "nodes": 4,
+      "validCount": 1775
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00001695687309640168,
+      "extra": 0.000016956873096401497,
+      "nodes": 4,
+      "validCount": 1797
+    },
+    {
+      "name": "exp(diff)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00001695687309640168,
+      "extra": 0.000016956873096401497,
+      "nodes": 4,
+      "validCount": 1784
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1729
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 3.880414616601788e-33,
+      "extra": 1.22439783423937e-32,
+      "nodes": 7,
+      "validCount": 1735
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1723
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1722
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0013693374091474574,
+      "extra": 0.03104745849897337,
+      "nodes": 14,
+      "validCount": 1712
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 6.09997732745048e-7,
+      "extra": 6.099977327450915e-7,
+      "nodes": 5,
+      "validCount": 1772
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 6.09997732745048e-7,
+      "extra": 6.099977327450915e-7,
+      "nodes": 5,
+      "validCount": 1748
+    },
+    {
+      "name": "sum*third",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 6.09997732745048e-7,
+      "extra": 6.099977327450915e-7,
+      "nodes": 5,
+      "validCount": 1761
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 3.119962228817508e-33,
+      "extra": 1.4768473964743032e-32,
+      "nodes": 11,
+      "validCount": 1685
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1715
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 10,
+      "validCount": 1676
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.002997930764491458,
+      "extra": 0.02653383746466394,
+      "nodes": 11,
+      "validCount": 1733
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0025937641126645814,
+      "extra": 0.07920175410254471,
+      "nodes": 11,
+      "validCount": 1692
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00012056856496204853,
+      "extra": 0.0001205685649620491,
+      "nodes": 5,
+      "validCount": 1741
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0025937641126645814,
+      "extra": 0.07920175410254471,
+      "nodes": 11,
+      "validCount": 1689
+    },
+    {
+      "name": "sum*third",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00012056856496204884,
+      "extra": 0.0001205685649620484,
+      "nodes": 9,
+      "validCount": 1778
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1695
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1713
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1701
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1707
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0012635992394177979,
+      "extra": 0.010220493545270876,
+      "nodes": 15,
+      "validCount": 1730
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.002197873181493129,
+      "extra": 0.015111379155588748,
+      "nodes": 15,
+      "validCount": 1696
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0015003937611836047,
+      "extra": 0.005883635560521715,
+      "nodes": 12,
+      "validCount": 1739
+    },
+    {
+      "name": "sum*third",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00001893721410372829,
+      "extra": 0.00001893721410372834,
+      "nodes": 5,
+      "validCount": 1697
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1741
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 1.2740392818795233e-33,
+      "extra": 0,
+      "nodes": 9,
+      "validCount": 1697
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1734
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1805
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00010879641143701359,
+      "extra": 0.00010879641143701325,
+      "nodes": 13,
+      "validCount": 1699
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00010879641143701531,
+      "extra": 0.0001087964114370147,
+      "nodes": 7,
+      "validCount": 1763
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0010301157709266397,
+      "extra": 0.005782673024325681,
+      "nodes": 14,
+      "validCount": 1705
+    },
+    {
+      "name": "sum*third",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00010879641143701531,
+      "extra": 0.0001087964114370147,
+      "nodes": 7,
+      "validCount": 1838
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.002935335149946155,
+      "extra": 0.030560115461104563,
+      "nodes": 15,
+      "validCount": 1731
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.0036832282416076017,
+      "extra": 0.01323403335019144,
+      "nodes": 11,
+      "validCount": 1704
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 9,
+      "validCount": 1718
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1810
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0009969380389709074,
+      "extra": 0.0016656021461337138,
+      "nodes": 14,
+      "validCount": 1732
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0000034341793701011434,
+      "extra": 0.0000034341793701011302,
+      "nodes": 8,
+      "validCount": 1738
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0006105513625486001,
+      "extra": 0.0022748909646476204,
+      "nodes": 9,
+      "validCount": 1760
+    },
+    {
+      "name": "sum*third",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0000034341793701015017,
+      "extra": 0.0000034341793701014254,
+      "nodes": 7,
+      "validCount": 1806
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1779
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1750
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1771
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.0020606801971787964,
+      "extra": 0.0031286557362810675,
+      "nodes": 12,
+      "validCount": 1749
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0004080227072382147,
+      "extra": 0.00040802270723821387,
+      "nodes": 5,
+      "validCount": 1737
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0004080227072382147,
+      "extra": 0.00040802270723821387,
+      "nodes": 9,
+      "validCount": 1753
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0004080227072382147,
+      "extra": 0.00040802270723821387,
+      "nodes": 5,
+      "validCount": 1738
+    },
+    {
+      "name": "sum*third",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0004080227072382147,
+      "extra": 0.00040802270723821387,
+      "nodes": 5,
+      "validCount": 1756
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.00958269982147596,
+      "extra": 0.0269170191503539,
+      "nodes": 12,
+      "validCount": 1727
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.020089289386662528,
+      "extra": 0.34312462967066293,
+      "nodes": 15,
+      "validCount": 1681
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.006043455202142766,
+      "extra": 0.07228709643626942,
+      "nodes": 13,
+      "validCount": 1723
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1788
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00008769693275161127,
+      "extra": 0.000087696932751611,
+      "nodes": 13,
+      "validCount": 1702
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.009883988275910366,
+      "extra": 0.029572468127728853,
+      "nodes": 11,
+      "validCount": 1696
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00008769693275160886,
+      "extra": 0.00008769693275160948,
+      "nodes": 5,
+      "validCount": 1702
+    },
+    {
+      "name": "sum*third",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00008769693275160886,
+      "extra": 0.00008769693275160948,
+      "nodes": 8,
+      "validCount": 1773
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0030640322880098885,
+      "extra": 0.001436857930094459,
+      "nodes": 14,
+      "validCount": 1714
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.00305449882865548,
+      "extra": 0.016281128139215645,
+      "nodes": 11,
+      "validCount": 1763
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.0030640322880098885,
+      "extra": 0.001436857930094459,
+      "nodes": 14,
+      "validCount": 1726
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1772
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0001845677058544341,
+      "extra": 0.00018456770585443383,
+      "nodes": 13,
+      "validCount": 1750
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.016019683722949898,
+      "extra": 0.10499005354479607,
+      "nodes": 13,
+      "validCount": 1721
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0001845677058544341,
+      "extra": 0.00018456770585443383,
+      "nodes": 5,
+      "validCount": 1762
+    },
+    {
+      "name": "sum*third",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0001845677058544341,
+      "extra": 0.00018456770585443383,
+      "nodes": 5,
+      "validCount": 1819
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1731
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1791
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1736
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1788
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00008400989994756717,
+      "extra": 0.00008400989994756732,
+      "nodes": 10,
+      "validCount": 1733
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0010003853607763518,
+      "extra": 0.023030890782066018,
+      "nodes": 14,
+      "validCount": 1771
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00008400989994756717,
+      "extra": 0.00008400989994756732,
+      "nodes": 5,
+      "validCount": 1732
+    },
+    {
+      "name": "sum*third",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0034683253537551337,
+      "extra": 0.1658536312726931,
+      "nodes": 15,
+      "validCount": 1800
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0020458260292188033,
+      "extra": 0.008069295461909366,
+      "nodes": 15,
+      "validCount": 1732
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1756
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 9.852802891544522e-33,
+      "extra": 1.0079708361159873e-32,
+      "nodes": 12,
+      "validCount": 1739
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1734
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.006461507318351606,
+      "extra": 0.0927529423698379,
+      "nodes": 13,
+      "validCount": 1746
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.001203864728562854,
+      "extra": 0.007694778312704185,
+      "nodes": 12,
+      "validCount": 1757
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.006461507318351606,
+      "extra": 0.0927529423698379,
+      "nodes": 13,
+      "validCount": 1751
+    },
+    {
+      "name": "sum*third",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00004663447435717487,
+      "extra": 0.00004663447435717507,
+      "nodes": 7,
+      "validCount": 1823
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1750
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1808
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1770
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1773
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 3.4181263443119084e-7,
+      "extra": 3.4181263443127714e-7,
+      "nodes": 12,
+      "validCount": 1756
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 3.418126344311745e-7,
+      "extra": 3.418126344311759e-7,
+      "nodes": 4,
+      "validCount": 1816
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 3.418126344311745e-7,
+      "extra": 3.418126344311759e-7,
+      "nodes": 4,
+      "validCount": 1763
+    },
+    {
+      "name": "cos(product)",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 3.418126344311745e-7,
+      "extra": 3.418126344311759e-7,
+      "nodes": 4,
+      "validCount": 1818
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.02786886405858813,
+      "extra": 0.23439861369478657,
+      "nodes": 12,
+      "validCount": 1816
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.10625546559365334,
+      "extra": 1.3426173715569736,
+      "nodes": 6,
+      "validCount": 1801
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 3.0793399050893967e-33,
+      "extra": 2.8254441996029847e-31,
+      "nodes": 8,
+      "validCount": 1789
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1848
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.000017067902163069636,
+      "extra": 0.000017067902163069548,
+      "nodes": 8,
+      "validCount": 1805
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000017067902163069646,
+      "extra": 0.000017067902163069508,
+      "nodes": 4,
+      "validCount": 1815
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.000017067902163069636,
+      "extra": 0.000017067902163069548,
+      "nodes": 8,
+      "validCount": 1782
+    },
+    {
+      "name": "cos(product)",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.022750812207879008,
+      "extra": 4.469154262202097,
+      "nodes": 9,
+      "validCount": 1824
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.0006590118088574838,
+      "extra": 0.0019441335146118698,
+      "nodes": 9,
+      "validCount": 1754
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1798
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.003691829452819688,
+      "extra": 0.010261398860901811,
+      "nodes": 12,
+      "validCount": 1738
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1703
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.12059660451927134,
+      "extra": 3.9578289214581193,
+      "nodes": 10,
+      "validCount": 1764
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00008067136491380886,
+      "extra": 0.00008067136491380885,
+      "nodes": 4,
+      "validCount": 1691
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.03043692703099599,
+      "extra": 0.5829206499624159,
+      "nodes": 12,
+      "validCount": 1787
+    },
+    {
+      "name": "cos(product)",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0015533256990640566,
+      "extra": 0.0018917011946891524,
+      "nodes": 5,
+      "validCount": 1796
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 8,
+      "validCount": 1709
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.007514871493168815,
+      "extra": 30.623835704882975,
+      "nodes": 12,
+      "validCount": 1716
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1729
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1705
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.007347391992710246,
+      "extra": 26.84707572751712,
+      "nodes": 13,
+      "validCount": 1723
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.007518744968988394,
+      "extra": 30.49543253463567,
+      "nodes": 10,
+      "validCount": 1738
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.007347391992710246,
+      "extra": 26.84707572751712,
+      "nodes": 13,
+      "validCount": 1732
+    },
+    {
+      "name": "cos(product)",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 9.380616097752034e-8,
+      "extra": 9.380616097752276e-8,
+      "nodes": 4,
+      "validCount": 1723
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1764
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1795
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1762
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1842
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0001677042490988347,
+      "extra": 0.00016770424909883405,
+      "nodes": 13,
+      "validCount": 1788
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00016770424909883378,
+      "extra": 0.00016770424909883365,
+      "nodes": 4,
+      "validCount": 1851
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00016770424909883378,
+      "extra": 0.00016770424909883365,
+      "nodes": 4,
+      "validCount": 1767
+    },
+    {
+      "name": "cos(product)",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.00016770424909883378,
+      "extra": 0.00016770424909883365,
+      "nodes": 4,
+      "validCount": 1777
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.09827683377998507,
+      "extra": 0.8268674283260633,
+      "nodes": 14,
+      "validCount": 1696
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.059313365098075756,
+      "extra": 3.4907184049855964,
+      "nodes": 15,
+      "validCount": 1728
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.014543762448357351,
+      "extra": 22.9508053831234,
+      "nodes": 14,
+      "validCount": 1689
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1757
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.018250206447816514,
+      "extra": 1.2403397496914421,
+      "nodes": 11,
+      "validCount": 1722
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 4.659758775275762e-9,
+      "extra": 4.6597587752727236e-9,
+      "nodes": 4,
+      "validCount": 1766
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.018250206447816514,
+      "extra": 1.2403397496914421,
+      "nodes": 11,
+      "validCount": 1726
+    },
+    {
+      "name": "cos(product)",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.007704327404503762,
+      "extra": 20.87208490756388,
+      "nodes": 15,
+      "validCount": 1703
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.01912090270536785,
+      "extra": 3.5277501857489155,
+      "nodes": 11,
+      "validCount": 1728
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.020370509157266736,
+      "extra": 24.490634114056967,
+      "nodes": 14,
+      "validCount": 1685
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.027235072476583626,
+      "extra": 3.8423788060156956,
+      "nodes": 10,
+      "validCount": 1733
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1815
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.019238997942298632,
+      "extra": 12.930048400082654,
+      "nodes": 15,
+      "validCount": 1590
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.036579844600849495,
+      "extra": 21.420661563335496,
+      "nodes": 15,
+      "validCount": 1699
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.022054791478909087,
+      "extra": 23.083699684725424,
+      "nodes": 15,
+      "validCount": 1589
+    },
+    {
+      "name": "cos(product)",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.011074700066256998,
+      "extra": 22.99084043786008,
+      "nodes": 14,
+      "validCount": 1725
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1786
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1759
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1782
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1759
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0000175668168385973,
+      "extra": 0.000017566816838597532,
+      "nodes": 6,
+      "validCount": 1745
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0000175668168385973,
+      "extra": 0.000017566816838597532,
+      "nodes": 4,
+      "validCount": 1776
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0000175668168385973,
+      "extra": 0.000017566816838597532,
+      "nodes": 4,
+      "validCount": 1746
+    },
+    {
+      "name": "cos(product)",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0000175668168385973,
+      "extra": 0.000017566816838597532,
+      "nodes": 6,
+      "validCount": 1702
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1725
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1738
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1723
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1746
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0000032751882239322726,
+      "extra": 0.000003275188223932346,
+      "nodes": 4,
+      "validCount": 1685
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0000032751882239322726,
+      "extra": 0.000003275188223932346,
+      "nodes": 4,
+      "validCount": 1758
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0000032751882239322726,
+      "extra": 0.000003275188223932346,
+      "nodes": 4,
+      "validCount": 1693
+    },
+    {
+      "name": "cos(product)",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.002211375026983994,
+      "extra": 0.002661628708277963,
+      "nodes": 5,
+      "validCount": 1775
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 6,
+      "validCount": 1778
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.013430769907266236,
+      "extra": 24.906505824087574,
+      "nodes": 14,
+      "validCount": 1682
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1772
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 4,
+      "validCount": 1763
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0007496618870959206,
+      "extra": 0.0043245378524682234,
+      "nodes": 14,
+      "validCount": 1739
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0000019868653002222537,
+      "extra": 0.0000019868653002222283,
+      "nodes": 4,
+      "validCount": 1715
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.007130618228462441,
+      "extra": 0.004133512008540267,
+      "nodes": 15,
+      "validCount": 1761
+    },
+    {
+      "name": "cos(product)",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0000019868653002222537,
+      "extra": 0.0000019868653002222283,
+      "nodes": 4,
+      "validCount": 1716
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.02934487422424875,
+      "extra": 0.4213956785468784,
+      "nodes": 15,
+      "validCount": 1749
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.049904136009331065,
+      "extra": 0.5866346567459136,
+      "nodes": 8,
+      "validCount": 1741
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.04232522277055181,
+      "extra": 0.002489803861161468,
+      "nodes": 7,
+      "validCount": 1754
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.007392439018301135,
+      "extra": 0.007038981278773761,
+      "nodes": 13,
+      "validCount": 1751
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.00003279631805262064,
+      "extra": 0.000032796318052620566,
+      "nodes": 12,
+      "validCount": 1773
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.02103451925488674,
+      "extra": 0.11358631283513854,
+      "nodes": 13,
+      "validCount": 1691
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.000032796318052620627,
+      "extra": 0.000032796318052620566,
+      "nodes": 5,
+      "validCount": 1749
+    },
+    {
+      "name": "ratio",
+      "seed": 11,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.0008955973389985513,
+      "extra": 0.00012056333567223559,
+      "nodes": 10,
+      "validCount": 1849
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1760
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1785
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1769
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1865
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.007945501489250564,
+      "extra": 0.05616987534580314,
+      "nodes": 8,
+      "validCount": 1787
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 1.7964512272230327e-8,
+      "extra": 1.796451227223384e-8,
+      "nodes": 5,
+      "validCount": 1786
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.009577039743348417,
+      "extra": 0.13932313392727033,
+      "nodes": 10,
+      "validCount": 1816
+    },
+    {
+      "name": "ratio",
+      "seed": 12,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.007351041298257097,
+      "extra": 0.027060294478235415,
+      "nodes": 9,
+      "validCount": 1791
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.03595128408219294,
+      "extra": 0.18598353434548034,
+      "nodes": 13,
+      "validCount": 1683
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.02160494248573808,
+      "extra": 0.028414159699437763,
+      "nodes": 11,
+      "validCount": 1736
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.03595128408219294,
+      "extra": 0.18598353434548034,
+      "nodes": 13,
+      "validCount": 1712
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.018411501407032845,
+      "extra": 0.07507075365261291,
+      "nodes": 10,
+      "validCount": 1802
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0304135385621943,
+      "extra": 0.014227589809878071,
+      "nodes": 12,
+      "validCount": 1725
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.02380866187865617,
+      "extra": 0.04527631380357619,
+      "nodes": 13,
+      "validCount": 1703
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.0304135385621943,
+      "extra": 0.014227589809878071,
+      "nodes": 12,
+      "validCount": 1730
+    },
+    {
+      "name": "ratio",
+      "seed": 13,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.036496378394274415,
+      "extra": 0.43710451701002245,
+      "nodes": 8,
+      "validCount": 1727
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1798
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.00981982497195858,
+      "extra": 0.33185875825285177,
+      "nodes": 13,
+      "validCount": 1812
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.009171969946744893,
+      "extra": 0.0003483339513060954,
+      "nodes": 14,
+      "validCount": 1779
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1824
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0006253915402838099,
+      "extra": 0.0021266671220730874,
+      "nodes": 15,
+      "validCount": 1827
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.000012185656662355552,
+      "extra": 0.000012185656662355638,
+      "nodes": 5,
+      "validCount": 1846
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.000012185656662355552,
+      "extra": 0.000012185656662355638,
+      "nodes": 5,
+      "validCount": 1802
+    },
+    {
+      "name": "ratio",
+      "seed": 14,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.03596454526711895,
+      "extra": 0.05902427025896735,
+      "nodes": 7,
+      "validCount": 1819
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.00848862831690098,
+      "extra": 0.021949407873207795,
+      "nodes": 10,
+      "validCount": 1742
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.008383032656628703,
+      "extra": 0.23320158513809208,
+      "nodes": 9,
+      "validCount": 1787
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.015578299526697068,
+      "extra": 0.4273514675507967,
+      "nodes": 14,
+      "validCount": 1742
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 11,
+      "validCount": 1765
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.012191357219441945,
+      "extra": 0.056340049205595655,
+      "nodes": 12,
+      "validCount": 1734
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.008392338332359564,
+      "extra": 0.14526087696174253,
+      "nodes": 11,
+      "validCount": 1782
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.020429641461682708,
+      "extra": 0.03590618430299207,
+      "nodes": 14,
+      "validCount": 1738
+    },
+    {
+      "name": "ratio",
+      "seed": 15,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.01587403361740282,
+      "extra": 0.10606239296762643,
+      "nodes": 14,
+      "validCount": 1672
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.015841983892364297,
+      "extra": 0.046102288439481824,
+      "nodes": 14,
+      "validCount": 1744
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.03479521997788035,
+      "extra": 0.0009745580958356758,
+      "nodes": 13,
+      "validCount": 1729
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.030045944612619523,
+      "extra": 0.14109655187702083,
+      "nodes": 9,
+      "validCount": 1728
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.027228099189087973,
+      "extra": 1.235710595554637,
+      "nodes": 13,
+      "validCount": 1815
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.027387060302791012,
+      "extra": 0.5977371870973387,
+      "nodes": 11,
+      "validCount": 1753
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.026675211737439166,
+      "extra": 0.013220941695567447,
+      "nodes": 9,
+      "validCount": 1753
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.1084249806252457,
+      "extra": 3.065261213869409,
+      "nodes": 12,
+      "validCount": 1749
+    },
+    {
+      "name": "ratio",
+      "seed": 16,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.02381335679775794,
+      "extra": 0.39414317128805043,
+      "nodes": 13,
+      "validCount": 1818
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1682
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 1.6788695507112375e-33,
+      "extra": 8.410266688500752e-33,
+      "nodes": 8,
+      "validCount": 1655
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1694
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.02388115041491619,
+      "extra": 0.009872935794499169,
+      "nodes": 8,
+      "validCount": 1729
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.011204082812106329,
+      "extra": 0.1410195638662223,
+      "nodes": 14,
+      "validCount": 1732
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.010520843204784455,
+      "extra": 0.06662695189096783,
+      "nodes": 10,
+      "validCount": 1722
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.04061211624996706,
+      "extra": 3.984966347757483,
+      "nodes": 8,
+      "validCount": 1716
+    },
+    {
+      "name": "ratio",
+      "seed": 17,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.2702452089454866,
+      "extra": 0.4791418883328565,
+      "nodes": 10,
+      "validCount": 1731
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.004335750240341644,
+      "extra": 0.09024268151846081,
+      "nodes": 15,
+      "validCount": 1769
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0.004335750240341643,
+      "extra": 0.09024268151846078,
+      "nodes": 15,
+      "validCount": 1763
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.009570637900116532,
+      "extra": 0.008465437895707946,
+      "nodes": 7,
+      "validCount": 1771
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0.02402010563092056,
+      "extra": 0.11478095436918273,
+      "nodes": 13,
+      "validCount": 1826
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.0070686810196844115,
+      "extra": 0.07801151348178322,
+      "nodes": 10,
+      "validCount": 1799
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.00899441160281619,
+      "extra": 0.009299202563212757,
+      "nodes": 7,
+      "validCount": 1821
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00899441160281619,
+      "extra": 0.009299202563212757,
+      "nodes": 7,
+      "validCount": 1798
+    },
+    {
+      "name": "ratio",
+      "seed": 18,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.07882730668301857,
+      "extra": 0.14651934611742617,
+      "nodes": 13,
+      "validCount": 1791
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.026355818004787424,
+      "extra": 0.6757292091542992,
+      "nodes": 13,
+      "validCount": 1801
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 9,
+      "validCount": 1842
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.8672004210982319,
+      "extra": 0.6444158317811265,
+      "nodes": 9,
+      "validCount": 1796
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1869
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.004499151725410587,
+      "extra": 0.0014843983387408533,
+      "nodes": 9,
+      "validCount": 1782
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.0268484942309427,
+      "extra": 0.030168171012794603,
+      "nodes": 10,
+      "validCount": 1845
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.004499151725410587,
+      "extra": 0.0014843983387408533,
+      "nodes": 9,
+      "validCount": 1781
+    },
+    {
+      "name": "ratio",
+      "seed": 19,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.028033203823893932,
+      "extra": 1.8257054727349769,
+      "nodes": 12,
+      "validCount": 1873
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0,
+      "mode": "unpenalized",
+      "hold": 0.014067020595852242,
+      "extra": 0.00886742496909783,
+      "nodes": 9,
+      "validCount": 1784
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0,
+      "mode": "fixed",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1779
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0,
+      "mode": "anneal",
+      "hold": 0.014067020595852242,
+      "extra": 0.00886742496909783,
+      "nodes": 9,
+      "validCount": 1792
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0,
+      "mode": "pareto",
+      "hold": 0,
+      "extra": 0,
+      "nodes": 5,
+      "validCount": 1781
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "unpenalized",
+      "hold": 0.012950238077415502,
+      "extra": 0.009958775798739692,
+      "nodes": 8,
+      "validCount": 1824
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "fixed",
+      "hold": 0.06992235638180344,
+      "extra": 0.375665028921073,
+      "nodes": 15,
+      "validCount": 1782
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "anneal",
+      "hold": 0.00009761004090962776,
+      "extra": 0.00009761004090962742,
+      "nodes": 9,
+      "validCount": 1823
+    },
+    {
+      "name": "ratio",
+      "seed": 20,
+      "noise": 0.05,
+      "mode": "pareto",
+      "hold": 0.024021301259999586,
+      "extra": 0.09433605462635118,
+      "nodes": 10,
+      "validCount": 1807
+    }
+  ]
+}
