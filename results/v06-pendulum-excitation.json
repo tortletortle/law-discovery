@@ -1,0 +1,6114 @@
+{
+  "summary": [
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "n": 20,
+      "exactRecoveries": 8,
+      "meanValidationNMSE": 0.0000015796388194969864
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "n": 20,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.0009186895933776974
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "n": 20,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.00182496036714523
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "n": 20,
+      "exactRecoveries": 18,
+      "meanValidationNMSE": 7.012539781259305e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "n": 20,
+      "exactRecoveries": 1,
+      "meanValidationNMSE": 0.00037518016083992826
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "n": 20,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.0008131363215882389
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "n": 20,
+      "exactRecoveries": 19,
+      "meanValidationNMSE": 6.752589114770363e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "n": 20,
+      "exactRecoveries": 7,
+      "meanValidationNMSE": 0.00019295904748557491
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "n": 20,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.0007829395279757891
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "n": 20,
+      "exactRecoveries": 20,
+      "meanValidationNMSE": 6.13447100518676e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "n": 20,
+      "exactRecoveries": 12,
+      "meanValidationNMSE": 0.00011023056938889936
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "n": 20,
+      "exactRecoveries": 3,
+      "meanValidationNMSE": 0.0006504556399862719
+    }
+  ],
+  "runs": [
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1479723696601323
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175444578692046
+        }
+      ],
+      "validationNMSE": 4.901901641384398e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.5475560773510277
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1516154367327901
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.1317398670158747
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.24736018239684124
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.47841128544500505
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.026094189967728
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.5475601261909314
+        }
+      ],
+      "validationNMSE": 0.0000021122142535800895
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14883460729874798
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171259840020637
+        }
+      ],
+      "validationNMSE": 3.5889251341849486e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15249862090938893
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.180019587706813
+        }
+      ],
+      "validationNMSE": 9.011479353327055e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.7673989637369467
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15031506434864983
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.4531777999858935
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.34506474496979783
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2161148987614193
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.707684281761972
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.7789352466002608
+        }
+      ],
+      "validationNMSE": 0.0000022243434326205787
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 6,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14563015191059892
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.170057411958503
+        }
+      ],
+      "validationNMSE": 0.000002381620284415478
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.6839796862180889
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15121620501282168
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.30958675635288163
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168589087408906
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.6874715891612124
+        }
+      ],
+      "validationNMSE": 0.0000026066885396033835
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.8484969507486074
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14825089245657358
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.08437501530283
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.3855753841562347
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.31919582819361875
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.072923692107585
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.8577246083837253
+        }
+      ],
+      "validationNMSE": 0.000004749548423645152
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14798994159464054
+        },
+        {
+          "expression": "x0",
+          "coefficient": 3.4663161827718993
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.5233059150634087
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -11.666665820661347
+        }
+      ],
+      "validationNMSE": 0.000001076412640801409
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.5202914020719425
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1512108541266849
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.4074953798559178
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.22703361424067606
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.36453813547382496
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.749156059064645
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.5253819752719749
+        }
+      ],
+      "validationNMSE": 0.0000015206805041297505
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15002370726924008
+        },
+        {
+          "expression": "x0",
+          "coefficient": -5.271865486346527
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.8128225787672338
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -2.8897775925579303
+        }
+      ],
+      "validationNMSE": 0.0000018675831211624715
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14925063107528846
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174471921852875
+        }
+      ],
+      "validationNMSE": 7.480336089547645e-8
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15095436466649298
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174194729015491
+        }
+      ],
+      "validationNMSE": 1.1549413187844379e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.44124680256929255
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15036103682502908
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.924379780031071
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.18931036220758976
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.29186445464690314
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.2365921471833135
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.4536616410454796
+        }
+      ],
+      "validationNMSE": 0.0000027565939552635668
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1505215569342036
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175482181073338
+        }
+      ],
+      "validationNMSE": 3.402104348727694e-8
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14854692626196445
+        },
+        {
+          "expression": "x0",
+          "coefficient": 2.578553412436304
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.3901562990978026
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -10.771762003291927
+        }
+      ],
+      "validationNMSE": 7.187443196771409e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.8707469821690117
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15510393404405237
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3825430202082034
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174468409196566
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.888639693436913
+        }
+      ],
+      "validationNMSE": 0.000005454608457248169
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.4876515354502384
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14991650692844988
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.21575911714177629
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17413479854474
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.4913676998958478
+        }
+      ],
+      "validationNMSE": 8.73002868006924e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.3888653804039168
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1515212921264239
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.8619607346367282
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.17384983759505676
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2845511927983251
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.3053876292400775
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.3928975980381294
+        }
+      ],
+      "validationNMSE": 9.115606044821431e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.01,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1485371441470019
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.177885732417746
+        }
+      ],
+      "validationNMSE": 3.6462583615263903e-7
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13851715842415047
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.37872933196901193
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.727002162267668
+        }
+      ],
+      "validationNMSE": 0.00003792083459315347
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -4.226317547610031
+        },
+        {
+          "expression": "x0",
+          "coefficient": -13.145600740589732
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.8666496853241357
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 2.023832428365528
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 5.022770488552569
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 4.259306514142612
+        }
+      ],
+      "validationNMSE": 0.002813708367617094
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.7311145062523293
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.144502373669807
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.353898733763141
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.3088786884886356
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.6619841725981095
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -3.776787372806215
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.7594722027074889
+        }
+      ],
+      "validationNMSE": 0.000020925766663922556
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.9106325411389552
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16256204390112444
+        },
+        {
+          "expression": "x0",
+          "coefficient": 4.177044833603061
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.38553736072618455
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.6329704861587501
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -12.404886077879233
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.9261780083633663
+        }
+      ],
+      "validationNMSE": 0.00003087348199237109
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -3.8352019698847424
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1515725007299785
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.099666705709973
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.7245856298787432
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.207560893710093
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 3.8929304644157448
+        }
+      ],
+      "validationNMSE": 0.00005639224405437302
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 8.961059605794041
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.3625484553049856
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -17.15668861318068
+        }
+      ],
+      "validationNMSE": 0.002591271793537156
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 3.3398621769020886
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15640751908713765
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.104541114049074
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.5103948101026916
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.2424866588290142
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -3.356946636419388
+        }
+      ],
+      "validationNMSE": 0.00007637234623793145
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -4.242484748887746
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14125446229078215
+        },
+        {
+          "expression": "x0",
+          "coefficient": -10.42187138309547
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.9278769182039897
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.5959785761844603
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 2.3353778276400625
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 4.28862303684062
+        }
+      ],
+      "validationNMSE": 0.00011873870314706607
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.9621452997931929
+        },
+        {
+          "expression": "x0",
+          "coefficient": 5.192405701394702
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.47512887185758257
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7880285074388855
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -13.392635953721713
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.9210749788011718
+        }
+      ],
+      "validationNMSE": 0.0025180745104462477
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 3.1911234368225627
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.2893587496073426
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.3864455386439618
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.834475292082123
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -3.211251088954544
+        }
+      ],
+      "validationNMSE": 0.002215879158106325
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -11.389308674732762
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.8140732586563972
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 3.1187463999841274
+        }
+      ],
+      "validationNMSE": 0.002445971604261755
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.6541573115256042
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14699793860434665
+        },
+        {
+          "expression": "x0",
+          "coefficient": -6.07123413413205
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.2586155342201111
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.9395209779853211
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -2.084895126968005
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.6750054568437895
+        }
+      ],
+      "validationNMSE": 0.00002567578697631403
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.5836113511967822
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15497416632790934
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.828373061516583
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7290941879276439
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.7637944190941302
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -3.3457628440189735
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.580703430461605
+        }
+      ],
+      "validationNMSE": 0.000032156900745665306
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 2.2062340804297844
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15180518402206836
+        },
+        {
+          "expression": "x0",
+          "coefficient": -9.621895208633171
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.9465518418579107
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.4593217100995226
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 1.5170355533736404
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -2.268308273249346
+        }
+      ],
+      "validationNMSE": 0.0000689148445983487
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 15,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.7396258359069154
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15322891473386546
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.5261660266627732
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7907688423313504
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2812194746089761
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.700803374209506
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.7566106890229845
+        }
+      ],
+      "validationNMSE": 0.00003218167401660189
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 30.22846072347895
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -4.544893179411613
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -38.684146297130766
+        }
+      ],
+      "validationNMSE": 0.0028519214743217007
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 4.367706090790846
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.17551948040622722
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.6771641630981642
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.9194017384842907
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2581868659815468
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.489401261760457
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -4.457193081253266
+        }
+      ],
+      "validationNMSE": 0.0001365778065939917
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -2.476295893288282
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.4627794695475805
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.760184276947799
+        }
+      ],
+      "validationNMSE": 0.0022509865437084927
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.9443269202517433
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15760646071944862
+        },
+        {
+          "expression": "x0",
+          "coefficient": -9.30979996062723
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.8692491961343276
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.4227553973161975
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 1.1730581221585896
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.9644880087260552
+        }
+      ],
+      "validationNMSE": 0.00002278901277270996
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.05,
+      "seed": 20,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.7729602133851594
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14234351417440103
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.36990076957457
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7702114849914053
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5143142932873983
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.804303345336873
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.8065774802623187
+        }
+      ],
+      "validationNMSE": 0.000026459013162728616
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.0359858649575728
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.12622999492666012
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.5543594374398397
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.4573015619524115
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2729596335475139
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.471024708984855
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.051449915826395
+        }
+      ],
+      "validationNMSE": 0.0001552867743187951
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -7.040156980422101
+        },
+        {
+          "expression": "x0",
+          "coefficient": -28.675885061151803
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 3.135633670331875
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 4.3970732155756265
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 20.63716459450341
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 7.074850775905488
+        }
+      ],
+      "validationNMSE": 0.0030086856849517772
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.4622290237005278
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1390047473132924
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.707796662169432
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.6177573821559587
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.3239682223700056
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 0.621424444802383
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.5189444166251986
+        }
+      ],
+      "validationNMSE": 0.00008370306581290945
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.7336831508092613
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.25460479553455223
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.2793243194639807
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.499550775115388
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.7467958555478154
+        }
+      ],
+      "validationNMSE": 0.002051608623070696
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -8.089573438803034
+        },
+        {
+          "expression": "x0",
+          "coefficient": -15.67847814255479
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 3.6840277705891817
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 2.3045242172463207
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 7.6921430846410415
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 8.18684995271355
+        }
+      ],
+      "validationNMSE": 0.0030264746036246784
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 14.54785538606228
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -2.1905304879668988
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -22.77596006072492
+        }
+      ],
+      "validationNMSE": 0.0026215109348460227
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 6.741705397874861
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1625126026235301
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.835772504337998
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -3.0498986572014166
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.3570897153957393
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 0.7640820940385632
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -6.7761863411051815
+        }
+      ],
+      "validationNMSE": 0.00028177625328871777
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -7.088084304824569
+        },
+        {
+          "expression": "x0",
+          "coefficient": -21.557185788317796
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 3.218208379433194
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 3.280817380956932
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 13.570783705546543
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 7.195248227282531
+        }
+      ],
+      "validationNMSE": 0.002847869251426515
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 3.1978624384828875
+        },
+        {
+          "expression": "x0",
+          "coefficient": 22.346121884173208
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.4765875533427826
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -3.3775209152052628
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -30.673665251513697
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -3.1771963555812612
+        }
+      ],
+      "validationNMSE": 0.0025996093942981884
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 5.810044366681223
+        },
+        {
+          "expression": "x0",
+          "coefficient": -10.615679644530008
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -2.528776776260374
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.560284282169218
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 2.575708455356823
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -5.855402686584568
+        }
+      ],
+      "validationNMSE": 0.002357765145061649
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -37.73681148918657
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 5.876408868636404
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 29.532905605333784
+        }
+      ],
+      "validationNMSE": 0.002572456230834097
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.4647809551176404
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.5185560980635673
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.16085387808280463
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5980488031456858
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.718121434426973
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.5112170229447837
+        }
+      ],
+      "validationNMSE": 0.00305481627965191
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -3.1672226903651204
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15994833265825378
+        },
+        {
+          "expression": "x0",
+          "coefficient": -9.65674526033066
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.4581883705042065
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.5275887065033522
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 1.4834734447122688
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 3.1614068487386917
+        }
+      ],
+      "validationNMSE": 0.00012862760162225703
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 3.9549026168234116
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.088435960289969
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.6818630615423404
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.2062610620394023
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -4.105498718525445
+        }
+      ],
+      "validationNMSE": 0.003405328583207361
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 15,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -3.479251679487172
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1564578293666366
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.0523310865870226
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.5815376879646887
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5624388016845566
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.226607720172106
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 3.5132213858736083
+        }
+      ],
+      "validationNMSE": 0.0001287266949534155
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 42.23882451382843
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -6.363631941844176
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -50.775900023965846
+        }
+      ],
+      "validationNMSE": 0.002935987973263298
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 8.73541217895562
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.20103896081272266
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.35432752259862
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -3.838803475651971
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5163736095328487
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.803803331437465
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -8.914386159892391
+        }
+      ],
+      "validationNMSE": 0.0005463112260601932
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -2.2268131173402366
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.5545749687910343
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.9667951103705892
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.80335524381423
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 2.248001244351557
+        }
+      ],
+      "validationNMSE": 0.0021945251769409256
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -28.591775005540544
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 4.326058041700701
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 20.577019225617402
+        }
+      ],
+      "validationNMSE": 0.002392301793989475
+    },
+    {
+      "angleMax": 1.3,
+      "noise": 0.1,
+      "seed": 20,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -3.545920415302653
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1346870283286047
+        },
+        {
+          "expression": "x0",
+          "coefficient": -6.739800732030798
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.5404229649104901
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.0286284634955711
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -1.433607502074542
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 3.6131549488738335
+        }
+      ],
+      "validationNMSE": 0.00010583605168171779
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1475268191276144
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174488323700594
+        }
+      ],
+      "validationNMSE": 4.698239193017653e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1520438920850274
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173093627941542
+        }
+      ],
+      "validationNMSE": 4.280466573983262e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14859267298621368
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171251746280731
+        }
+      ],
+      "validationNMSE": 3.553102137796162e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1530857863768619
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.180008420449235
+        }
+      ],
+      "validationNMSE": 9.371554448748851e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15071212135789594
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175395282366349
+        }
+      ],
+      "validationNMSE": 3.83987845341246e-8
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 6,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14463097357645
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.170478768914295
+        }
+      ],
+      "validationNMSE": 0.0000023416794141942137
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 7,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15168991425000622
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.167842148746686
+        }
+      ],
+      "validationNMSE": 0.0000010704628176256074
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 8,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14771566969845382
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168183867814031
+        }
+      ],
+      "validationNMSE": 0.000001178821673598579
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14755397485559638
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.5183426206051928
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.06952037832602874
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.71369393481374
+        }
+      ],
+      "validationNMSE": 0.0000010397376398785329
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 10,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1516007175812471
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172252899860425
+        }
+      ],
+      "validationNMSE": 2.7120359570565575e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15002850428968378
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.8015723868857959
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.11179559818813825
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.362582534203434
+        }
+      ],
+      "validationNMSE": 0.000001875754201908037
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1490808956270015
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174720875241796
+        }
+      ],
+      "validationNMSE": 7.392446884804647e-8
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15119371221224948
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174576942403474
+        }
+      ],
+      "validationNMSE": 1.1598930911159474e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 14,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15057896728508235
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17261872367924
+        }
+      ],
+      "validationNMSE": 1.1706161539375065e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15066791991809303
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17626194726152
+        }
+      ],
+      "validationNMSE": 5.6824894868721054e-8
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 16,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1484391256668256
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17602899317191
+        }
+      ],
+      "validationNMSE": 2.1571657342440314e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 17,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15646512712451935
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175143371436544
+        }
+      ],
+      "validationNMSE": 0.000002796385508726605
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 18,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1496305560049554
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.1742357623094
+        }
+      ],
+      "validationNMSE": 1.6845664895857286e-8
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 19,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15167908844309702
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.176600528249587
+        }
+      ],
+      "validationNMSE": 2.495918217953916e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.01,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14819443771841
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.177885011665106
+        }
+      ],
+      "validationNMSE": 3.763453426548982e-7
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13763409563860027
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172441618513917
+        }
+      ],
+      "validationNMSE": 0.000011745597981144616
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.6750493115246815
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15991048817924922
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.370043534369354
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.2648988989202293
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.32576735638826165
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.735578361962753
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.676016464706768
+        }
+      ],
+      "validationNMSE": 0.00005378417360616318
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14301768082089922
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.513356127727746
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.07077950525470135
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.630401096355771
+        }
+      ],
+      "validationNMSE": 0.000009506937575735375
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.16553531562864593
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.6447153034490231
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.08972997618196461
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.859451252116333
+        }
+      ],
+      "validationNMSE": 0.000022830700981278123
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.8811412570006734
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1518931472732327
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.0564420711301614
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.35557490476074205
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.13732167193379052
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.063282621170638
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.9525012245196953
+        }
+      ],
+      "validationNMSE": 0.00005388144793852158
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 1.293989841236726
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.17317333165125387
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.488214734320858
+        }
+      ],
+      "validationNMSE": 0.0017446711011548748
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.7840892174619432
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15775001326441768
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.6356704690616627
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3129089662080874
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.09027872947862017
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.498203492777458
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.8050819280979677
+        }
+      ],
+      "validationNMSE": 0.00007181742022483072
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.007156992174938
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1391944912256647
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.5632614346012663
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.41260110581136616
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.21802911666588481
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.5401027958667255
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.0659592702136615
+        }
+      ],
+      "validationNMSE": 0.00012305224970940426
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 1.2321698561809205
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.16496326258384045
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.452069231635958
+        }
+      ],
+      "validationNMSE": 0.0015995388462302486
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.6197981144131705
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1573959148819234
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.8182304617418723
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.22875803359062374
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.24594737821649262
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.282552149159174
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.652242723515379
+        }
+      ],
+      "validationNMSE": 0.00004151246172357306
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.27387693970711136
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15076469383981103
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.058264049190051
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.10248322903289227
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5658896967953699
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.0614269343016955
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.31741345666258725
+        }
+      ],
+      "validationNMSE": 0.00006289599091802769
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14536950746565222
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.8275454015156355
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.11767865113442069
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.3367283290464655
+        }
+      ],
+      "validationNMSE": 0.000004677879303967567
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.38963210181457597
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1561322206762911
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.7579087891028534
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.15925779378989544
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.11151146799261841
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.415771728419632
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.38652387006127403
+        }
+      ],
+      "validationNMSE": 0.000034073236464173184
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.4737297628788801
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15220204436569873
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.4192816519545017
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.175396749635995
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.19259627838655394
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.7002137844491
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.5495749182109488
+        }
+      ],
+      "validationNMSE": 0.0000682359602752156
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 15,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.40829689996703317
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15284528278335452
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.1676519002616284
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.182901789705028
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.42825456133075296
+        }
+      ],
+      "validationNMSE": 0.000019736506080248308
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 4.003588345759465
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.5347821584859059
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -12.374911730489094
+        }
+      ],
+      "validationNMSE": 0.0019412112699827128
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.959435441767407
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.18068376420891313
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3706204989662865
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172598387069273
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.0683414021604607
+        }
+      ],
+      "validationNMSE": 0.00013065964530464865
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.16143063675455
+        }
+      ],
+      "validationNMSE": 0.0014594235569907693
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.4430853261881712
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1592604882650236
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.3974614164083163
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.17411464527512144
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.19152736317278313
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.746924784509033
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.46778082606619853
+        }
+      ],
+      "validationNMSE": 0.000022782133207474107
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.05,
+      "seed": 20,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.4123870138410792
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14058638629266362
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.5055455657289998
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.15420422876353398
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06836423332809245
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.669239778894663
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.4545815076367337
+        }
+      ],
+      "validationNMSE": 0.00002756610114555369
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.30374674972978877
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.7003320731906735
+        }
+      ],
+      "validationNMSE": 0.001901056365523015
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.3500986236119963
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16982097635749444
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.740087046121712
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.5297977980618154
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.6515347096847126
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -3.2961567471947077
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.3520329299722824
+        }
+      ],
+      "validationNMSE": 0.00021513669406690721
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.317092322478035
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.13654048512514955
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.2093197795217798
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.11632598534647438
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.16651001234525228
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.896974250478878
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.38736556279637463
+        }
+      ],
+      "validationNMSE": 0.00008275256173664428
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.18107063125971423
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.2894306300598626
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.17945995554370422
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.54390252805239
+        }
+      ],
+      "validationNMSE": 0.00009132280394485026
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.7622825140842515
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15378629454690335
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.1128841222909966
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7111498095463336
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2746433411426222
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.951565262904635
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.9050024491137323
+        }
+      ],
+      "validationNMSE": 0.00021552579153023005
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 2.130841923025255
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.2797145660471658
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -10.351122243631492
+        }
+      ],
+      "validationNMSE": 0.0017774459260986649
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.6467555381970937
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.24848303427369506
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.5060573863572477
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.6540370733841336
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.06311458865789017
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.3395780059052381
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.52627189222362
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.6991152486684062
+        }
+      ],
+      "validationNMSE": 0.0006684255913472387
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -2.1282642840213
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.18981538487598473
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.400877140891836
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.8701179548005461
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.010983587745623014
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.4747606098733126
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.620098255995358
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 2.24653406216412
+        }
+      ],
+      "validationNMSE": 0.000592935659693986
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.8269700940467589
+        },
+        {
+          "expression": "x0",
+          "coefficient": 3.649205007520895
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3339670736965979
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.49000190851259173
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -11.960747842472616
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.8154708097665009
+        }
+      ],
+      "validationNMSE": 0.0017238263623259942
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.3664368979534611
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9330354042619489
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.4993519906843779
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2508838213159896
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.1263162297923905
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.4257981527688999
+        }
+      ],
+      "validationNMSE": 0.0017535662661115777
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.5756587199852874
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.1169953540704
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.22294415942189355
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.1363398781219927
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.6453163473352325
+        }
+      ],
+      "validationNMSE": 0.0018878114595594123
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14073901492758498
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.6550907831647217
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.23535729955224166
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.498456678524631
+        }
+      ],
+      "validationNMSE": 0.000018711517087972352
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.7792642032039393
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1622644413530623
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.515817557905531
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.31851558741365665
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.22302293320219355
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.656543477711138
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.7730477396670372
+        }
+      ],
+      "validationNMSE": 0.00013629294563370368
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.9514058780525285
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.21339317561146215
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.819991149181801
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3516390422020515
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.04487521502879793
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.37874578686590343
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.234340640802864
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.0963674573516977
+        }
+      ],
+      "validationNMSE": 0.0005981080261362908
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 15,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.8149539032503423
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1578119871922457
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4651760369234784
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.3330818289025795
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.08919143630159285
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.793917446629927
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.8576454026919752
+        }
+      ],
+      "validationNMSE": 0.00012871968562557927
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 5.80435416578002
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7777606852449432
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -14.241257260503891
+        }
+      ],
+      "validationNMSE": 0.0020152665003307616
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.9265281110449441
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2113841246585031
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4877938590196534
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.7446501198320719
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06823459729733211
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.6740407748598924
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -2.1444298899368275
+        }
+      ],
+      "validationNMSE": 0.0005236182944802673
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.5939832626345672
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.21703418076441935
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.157964750576918
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.625475144762421
+        }
+      ],
+      "validationNMSE": 0.0014196783992809216
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.0907651777535259
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16412978822944918
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.5024713674018
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.4360114326559149
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.03486382234168919
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.35795681116741923
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.512343832682003
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.1424131547028462
+        }
+      ],
+      "validationNMSE": 0.0004022611768197971
+    },
+    {
+      "angleMax": 2,
+      "noise": 0.1,
+      "seed": 20,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.8247740272890098
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.13117277258164853
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.0110911124546846
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.30840845737449046
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.1367284640568789
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.163479577331017
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.9091630148455412
+        }
+      ],
+      "validationNMSE": 0.00011026440443096208
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14751678360457904
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173056941314837
+        }
+      ],
+      "validationNMSE": 5.002378893308385e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15206208959451237
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173214533999026
+        }
+      ],
+      "validationNMSE": 4.287079087945435e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14862416867024103
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171349135581245
+        }
+      ],
+      "validationNMSE": 3.352409730440489e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1530978430445589
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.179881864260011
+        }
+      ],
+      "validationNMSE": 9.684799338439568e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15068966554729427
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174541426365705
+        }
+      ],
+      "validationNMSE": 3.960080713281985e-8
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 6,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14460281622862656
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171255619264878
+        }
+      ],
+      "validationNMSE": 0.0000022910543839920066
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 7,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15168406850838323
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168291043476625
+        }
+      ],
+      "validationNMSE": 9.967535847762239e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 8,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1476673594511003
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168239188020308
+        }
+      ],
+      "validationNMSE": 0.0000011856746945627232
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 9,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14743998976074613
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.176123864300338
+        }
+      ],
+      "validationNMSE": 4.759425287556225e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 10,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15159488361343848
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171937832542563
+        }
+      ],
+      "validationNMSE": 3.1324226756505286e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15002768386650184
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.23220082094975855
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.028950440905293667
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.934247115337852
+        }
+      ],
+      "validationNMSE": 0.000001918975758298811
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14907551568909636
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175069255223404
+        }
+      ],
+      "validationNMSE": 7.79196506050651e-8
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1512252084371596
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175128664750359
+        }
+      ],
+      "validationNMSE": 1.214984159669602e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 14,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15056852648087254
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172452414262995
+        }
+      ],
+      "validationNMSE": 1.3125925553366453e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15071390319011113
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.177378872494812
+        }
+      ],
+      "validationNMSE": 1.227739142480613e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 16,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14839431573185977
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17650505030369
+        }
+      ],
+      "validationNMSE": 2.4982804967936984e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 17,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15633203295358278
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175080159580075
+        }
+      ],
+      "validationNMSE": 0.0000026990427056389226
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 18,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1496416630167375
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174304939498283
+        }
+      ],
+      "validationNMSE": 1.4917253777744972e-8
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 19,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1516809690836094
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.176511536007414
+        }
+      ],
+      "validationNMSE": 2.4550129060604005e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.01,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14817148862728258
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.177792411149547
+        }
+      ],
+      "validationNMSE": 3.885269633882487e-7
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1375839180235078
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.165284706585233
+        }
+      ],
+      "validationNMSE": 0.000012505947229345673
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.27216081180985524
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15993958885700463
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.6749684449943042
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.0901730921613288
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.08315872555247986
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.445646196848946
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.27431964288717076
+        }
+      ],
+      "validationNMSE": 0.00005492587237649353
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1431208433515625
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.156745677917163
+        }
+      ],
+      "validationNMSE": 0.000008381024319667352
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1654892152231698
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.199409321310975
+        }
+      ],
+      "validationNMSE": 0.000024211998354682527
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.308799369986178
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15184439073141381
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.2810475782205329
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.11476053019699603
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.03188948326466093
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.852479219359134
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.38089532361479733
+        }
+      ],
+      "validationNMSE": 0.00005175991368898768
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 0.3837100634757275
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.04452269700878685
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.574599107634558
+        }
+      ],
+      "validationNMSE": 0.0017557254538482783
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.30142933219858636
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15756914774448771
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.10530783145223095
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.144433556797813
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.3227572377961647
+        }
+      ],
+      "validationNMSE": 0.00006604741812305385
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.3738428520377583
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.13908066347167838
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4344629371050528
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.14001562009753735
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0557979449930728
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.684334360271638
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.4355470794570693
+        }
+      ],
+      "validationNMSE": 0.0001295832663078927
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13794054700639127
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.7171473497673017
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.08524594857332732
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.970739404722151
+        }
+      ],
+      "validationNMSE": 0.000024831457069336196
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15836642762717348
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.5450932166813329
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06601229733628683
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.5710379096584735
+        }
+      ],
+      "validationNMSE": 0.000016281989924636755
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15013841932428382
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.1610040983353864
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.1447522037478184
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.971235583634292
+        }
+      ],
+      "validationNMSE": 0.00004797439361144544
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14537757844544857
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17534627612792
+        }
+      ],
+      "validationNMSE": 0.000001947991265514182
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15612604218658244
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17564332376288
+        }
+      ],
+      "validationNMSE": 0.000003037460399569785
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.153179250919501
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.3993313674997038
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.04858807097873924
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.732140608408627
+        }
+      ],
+      "validationNMSE": 0.000008963454063300851
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15356951595122603
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.186894362485122
+        }
+      ],
+      "validationNMSE": 0.0000030693478604605025
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14101340073889734
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.5393017311334081
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.0645770728902555
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.771545196484501
+        }
+      ],
+      "validationNMSE": 0.000018397691220907226
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.3118339539188895
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.18004737776701615
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.11027873334159649
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173002467259026
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.4201402810320594
+        }
+      ],
+      "validationNMSE": 0.00012625359804179385
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.169764106944543
+        }
+      ],
+      "validationNMSE": 0.001484976295157212
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15813663187541283
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.42284782709627927
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.051584406408483496
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.72760406597892
+        }
+      ],
+      "validationNMSE": 0.000010593202759536056
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.05,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14085744313662543
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.18896205575863
+        }
+      ],
+      "validationNMSE": 0.00000971317408938351
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.131401638971495
+        }
+      ],
+      "validationNMSE": 0.001680045005043218
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.5443216236851596
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16987917771377395
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.3499368879984905
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.18034618434422683
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.16631745086230676
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.716292395846391
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.5486392858381692
+        }
+      ],
+      "validationNMSE": 0.00021970348939646836
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13605898667583288
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.2512800169686785
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.032199957917240576
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.8772817502066
+        }
+      ],
+      "validationNMSE": 0.00003691295862329003
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1813516326851338
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.35748063141648084
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.04636678151652953
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.595369849561664
+        }
+      ],
+      "validationNMSE": 0.00009638578203169696
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.6175987399842888
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15368878146293308
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.5620951547839806
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.22952106039639458
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06377896632773644
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.529958440511098
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.7617906472392463
+        }
+      ],
+      "validationNMSE": 0.00020703965469562953
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 0.6191765935932705
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.06969774683527824
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.830351605563274
+        }
+      ],
+      "validationNMSE": 0.0017890199744792906
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.604018646989128
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2492353538902377
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.6743528468518697
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.20915274358355804
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.03760117841442488
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.08308591885836733
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.389937210166927
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.6560319068479655
+        }
+      ],
+      "validationNMSE": 0.0007003823343647588
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.7476857040744682
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1281613269435037
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.8689258722331253
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.2800312401925596
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.11159588974278803
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.193668722665105
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.8710941589098432
+        }
+      ],
+      "validationNMSE": 0.0005183330650466899
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 1.0793276906483207
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.1280552141110788
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.370215483452336
+        }
+      ],
+      "validationNMSE": 0.0015947992587657745
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.519275145082502
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.534096577771623
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.155957026039027
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06088680272622729
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.550108275098813
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.5821929699952432
+        }
+      ],
+      "validationNMSE": 0.0019428603293721923
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.16529465010715663
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15154496944437232
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.3494218754647407
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.057382258557404905
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2928329997955702
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.738343324970469
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.2532161333393372
+        }
+      ],
+      "validationNMSE": 0.0002571993147250781
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.23152332824391678
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.03323592880637957
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.970935263820694
+        }
+      ],
+      "validationNMSE": 0.0020832867567833415
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.40053053492790014
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0561772636507618
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.742430403546226
+        }
+      ],
+      "validationNMSE": 0.0019181311210741923
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.2842296679860542
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15438839174518626
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.7790625619605694
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.09656616683131529
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.09463425994658735
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.311036685624207
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.435605079901835
+        }
+      ],
+      "validationNMSE": 0.0002661635488895233
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 15,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15879080473027624
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.17474486327312955
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.03026467891536099
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.064172515405476
+        }
+      ],
+      "validationNMSE": 0.00007763719471237233
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13202680147502646
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.0786034642259759
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.12915414602107167
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.368090395078124
+        }
+      ],
+      "validationNMSE": 0.00007359076502402275
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.6236679078365427
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.21009475553397725
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.2205574666827914
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171004934520804
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.8402805620628082
+        }
+      ],
+      "validationNMSE": 0.0005050143921659912
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.166310088164662
+        }
+      ],
+      "validationNMSE": 0.0014839985422138578
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.31346062307410355
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16839622582870337
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.7920399506086646
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.10873051331663701
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.09642546187072654
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.335546709179428
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.36284590678965845
+        }
+      ],
+      "validationNMSE": 0.00009044400018711739
+    },
+    {
+      "angleMax": 2.6,
+      "noise": 0.1,
+      "seed": 20,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.2903353175168257
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1310727937234769
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.2901042141173241
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.09548195716785557
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.033856918706670014
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.885446536432927
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.37740264758027003
+        }
+      ],
+      "validationNMSE": 0.00011784307192127485
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14759979649845636
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171719212397988
+        }
+      ],
+      "validationNMSE": 5.956339749315699e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15197419880323582
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173312021766074
+        }
+      ],
+      "validationNMSE": 4.2487001136809765e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14871683508777514
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171569282366985
+        }
+      ],
+      "validationNMSE": 3.023059092218955e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15293473308400174
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.179637654508994
+        }
+      ],
+      "validationNMSE": 9.696000291812634e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15063224364966407
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.173684273650725
+        }
+      ],
+      "validationNMSE": 6.176146339893728e-8
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 6,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14483730579573303
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172148185418152
+        }
+      ],
+      "validationNMSE": 0.0000022536679203432718
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 7,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15157485696749085
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.1689044964925
+        }
+      ],
+      "validationNMSE": 8.793520708592596e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 8,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14774168187625966
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168468324253675
+        }
+      ],
+      "validationNMSE": 0.000001152536859003737
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 9,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14761331524137786
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.176797500764573
+        }
+      ],
+      "validationNMSE": 4.793345584397021e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 10,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15151404886606146
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171695743484541
+        }
+      ],
+      "validationNMSE": 3.492798547689703e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 11,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14974942623528403
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.181299597916109
+        }
+      ],
+      "validationNMSE": 6.040762515387924e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14911251511392135
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175377273410513
+        }
+      ],
+      "validationNMSE": 8.636202667222188e-8
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15118871796824804
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17563388574085
+        }
+      ],
+      "validationNMSE": 1.3001859782378993e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 14,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15053411493124286
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.172351725233522
+        }
+      ],
+      "validationNMSE": 1.4056858178100226e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15071740248975965
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.178377445077416
+        }
+      ],
+      "validationNMSE": 2.1441998030162085e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 16,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1484340507889614
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17696399504231
+        }
+      ],
+      "validationNMSE": 2.8621850303752785e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 17,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15595644654875065
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175004638536462
+        }
+      ],
+      "validationNMSE": 0.0000026951652503384947
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 18,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14966738808668684
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174404318575377
+        }
+      ],
+      "validationNMSE": 1.2869889840566487e-8
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 19,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15160490014843164
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.176332121102487
+        }
+      ],
+      "validationNMSE": 2.3711797011427344e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.01,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14823768237423754
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.177603367068548
+        }
+      ],
+      "validationNMSE": 3.9378230740852497e-7
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13799898249294124
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.158596062000974
+        }
+      ],
+      "validationNMSE": 0.000014890849367016612
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15990155818595564
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.41462998991075245
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.04741914092030973
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.702796248556226
+        }
+      ],
+      "validationNMSE": 0.00003559442035690814
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14358417543914617
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.157846411845796
+        }
+      ],
+      "validationNMSE": 0.000007557647724614754
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.16467366542034018
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.198188272555786
+        }
+      ],
+      "validationNMSE": 0.000024240000737850914
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15316121824866047
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.168421368264637
+        }
+      ],
+      "validationNMSE": 0.000001544036582806826
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 6,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.12418652897897675
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.160740927101639
+        }
+      ],
+      "validationNMSE": 0.0000563416980059368
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 7,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15787428483723745
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.14452248247342
+        }
+      ],
+      "validationNMSE": 0.00002198380176003593
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.2037338284758789
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1395433107906878
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.20176051969647849
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.07273021031355012
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.024765256287305026
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.926246407822628
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.26468416962012686
+        }
+      ],
+      "validationNMSE": 0.0001359605105328053
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13871633401712377
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.3324369165246289
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.03632381161842502
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.572128226959743
+        }
+      ],
+      "validationNMSE": 0.000023946646140324372
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1579871784400157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.25816791109453524
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.02895704270964959
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.867424496553753
+        }
+      ],
+      "validationNMSE": 0.00001765790812701845
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1501276794088116
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.5698926834425774
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.06519990056211918
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.569102085125613
+        }
+      ],
+      "validationNMSE": 0.00004932686222313301
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 12,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14556257556955635
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17688636706345
+        }
+      ],
+      "validationNMSE": 0.000002159050667700602
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 13,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15594358984196446
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17816942871534
+        }
+      ],
+      "validationNMSE": 0.000003250464946757329
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1530052027398008
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.18584022940153336
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.020991230384812234
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.9531951527785525
+        }
+      ],
+      "validationNMSE": 0.000008600282418459386
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15358701244944903
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.191887225398132
+        }
+      ],
+      "validationNMSE": 0.000005360499513512616
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1414372459213907
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.25255472330245504
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.02785041537517166
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.475188599700855
+        }
+      ],
+      "validationNMSE": 0.000018276356746050055
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 17,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.17978223274359223
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.1750231926932
+        }
+      ],
+      "validationNMSE": 0.00006737913125811278
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.178492401885723
+        }
+      ],
+      "validationNMSE": 0.0016947687137242088
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 19,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15802450074237717
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.181660605523389
+        }
+      ],
+      "validationNMSE": 0.000005927949254973337
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.05,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14118841187131465
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.188016835353652
+        }
+      ],
+      "validationNMSE": 0.00000984455768976117
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.111680407222565
+        }
+      ],
+      "validationNMSE": 0.0018169213449106675
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.3259694923267777
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16894319074837494
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.6472132971870198
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.09416519288603314
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.07378201079446228
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.436803353582379
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.33201411699297867
+        }
+      ],
+      "validationNMSE": 0.00022136747686853024
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13716835087835982
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.140692823694302
+        }
+      ],
+      "validationNMSE": 0.00003023059089550117
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.17987556882512434
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.16376768255876648
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.02066217269350326
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.391572024608797
+        }
+      ],
+      "validationNMSE": 0.00010000437973317206
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.31816412339657385
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15344004795743785
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.25227797989963613
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.11461631692738784
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.026050456187908883
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.85562215286282
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.4568456851415694
+        }
+      ],
+      "validationNMSE": 0.0002019580767736001
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 6,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 0.3079458832882783
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.03078335874032907
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.513653935625946
+        }
+      ],
+      "validationNMSE": 0.0019637148481445655
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 7,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.3296995823655192
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2444889566722598
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.30116041809492855
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.10300351996645497
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.026872667226729725
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.035288673317772135
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.782416572534906
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.3784725836777906
+        }
+      ],
+      "validationNMSE": 0.000712183817856744
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 8,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.4074676569522871
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.12908662158146933
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4035210389014116
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.14546042062639686
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.04953051251878411
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.677492816199585
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.529368339239222
+        }
+      ],
+      "validationNMSE": 0.0005438420420347721
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 9,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1274326680351292
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.6648738335262387
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.07264762329055845
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.969256454466297
+        }
+      ],
+      "validationNMSE": 0.00009578658461928548
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 10,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.29409419032170825
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.23581720077683124
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.07553457187183957
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.02454159881249222
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.863746859280074
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.3568652346913649
+        }
+      ],
+      "validationNMSE": 0.0022963600307585323
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 11,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15025535881663576
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.1397853664875146
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.13039980107979843
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -6.963204170706427
+        }
+      ],
+      "validationNMSE": 0.00019730744880063156
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 12,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.197489453503257
+        }
+      ],
+      "validationNMSE": 0.0023840412739405776
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 13,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.161259394431314
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.2007672742156785
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.02546468081972578
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.975029154357645
+        }
+      ],
+      "validationNMSE": 0.00003767231267915418
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 14,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1560104054789308
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.37168045838978253
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.04198246072324365
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.73139030602594
+        }
+      ],
+      "validationNMSE": 0.00003440112963033449
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 15,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15717402489906074
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.208774450799016
+        }
+      ],
+      "validationNMSE": 0.0000214419980570262
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 16,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1328744918414609
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.5051094470884802
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.05570083080512763
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.775377199949856
+        }
+      ],
+      "validationNMSE": 0.00007310542705521867
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 17,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.2925137270218102
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.20651676310007616
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.1021744798806557
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.171839829698953
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.4989040310223672
+        }
+      ],
+      "validationNMSE": 0.0005043580464290533
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 18,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.175441448175372
+        }
+      ],
+      "validationNMSE": 0.0016927910579673442
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 19,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.16546707210004813
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.40688304951537335
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.04543360422979029
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -7.727337809480458
+        }
+      ],
+      "validationNMSE": 0.000042246681809396466
+    },
+    {
+      "angleMax": 3,
+      "noise": 0.1,
+      "seed": 20,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.13237682374266097
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.201033670710045
+        }
+      ],
+      "validationNMSE": 0.000039378230761329006
+    }
+  ]
+}
