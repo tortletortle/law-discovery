@@ -45,9 +45,11 @@ export function estimateDerivatives(series,{window=9,degree=3,maxDerivative=2}={
  }
  return out;
 }
-export function toDynamicsRows(estimates,{targetState=0,derivativeOrder=1}={}){
- if(!Array.isArray(estimates)||!estimates.length||!Number.isInteger(targetState)||!Number.isInteger(derivativeOrder)||derivativeOrder<1)throw Error("Invalid derivative records or target selection");
- return estimates.map(r=>{
+export function toDynamicsRows(estimates,{targetState=0,derivativeOrder=1,excludeEdges=false}={}){
+ if(!Array.isArray(estimates)||!estimates.length||!Number.isInteger(targetState)||!Number.isInteger(derivativeOrder)||derivativeOrder<1||typeof excludeEdges!=="boolean")throw Error("Invalid derivative records or target selection");
+ const selected=excludeEdges?estimates.filter(r=>!r.edge):estimates;
+ if(selected.length<3)throw Error("At least 3 usable derivative rows are required");
+ return selected.map(r=>{
   if(!Array.isArray(r.state)||!Array.isArray(r.derivatives)||targetState>=r.state.length||derivativeOrder>r.derivatives.length)throw Error("Requested derivative is unavailable");
   const variables=[...r.state];for(let k=0;k<derivativeOrder-1;k++)variables.push(...r.derivatives[k]);
   const target=r.derivatives[derivativeOrder-1][targetState];
