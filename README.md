@@ -1,31 +1,45 @@
-﻿# 科学定律发现引擎
+# Formula Alchemist — 科学定律发现引擎
 
-> 状态：Private 开发仓
+> Repository: private research development. Current milestone: V0.6 sparse dimensional dynamics discovery.
 
-## 当前完成度
+## Project goal
 
-- 记录进度：待迁入源码 / 版本包后核定
-- **未经验收功能不得标记为已完成。**
+从实验观测中搜索可解释的显式数学关系与动力学方程，并通过量纲、独立留出数据和可复现实验验证候选规律。项目区分**预测拟合**与**真实公式恢复**：低预测误差不等于唯一识别出真实物理定律。
 
-## 目标 / 架构 / 运行方式
+## Current capabilities
 
-（待补全。）
+- `src/baseline.mjs` — 单变量、单基函数仿射符号回归基线。
+- `src/dimensional.mjs` — 有界表达式枚举与表达式量纲推导。
+- `src/canonical.mjs` — 加法/乘法结合律与交换律的有限规范化去重。
+- `src/evolution.mjs` — 带量纲检查的随机表达式树进化搜索。
+- `src/selection.mjs` — 固定惩罚、动态惩罚与局部 Pareto 种群筛选。
+- `src/dynamics.mjs` — 多项式/三角候选库、稀疏多项式回归，以及未知系数的量纲推断。
 
-## 工程约定
+## V0.6 experiment
 
-1. 一项目一仓库 · 开发期 Private
-2. 保留本地 Git 历史与 tags
-3. 版本附测试报告与变更记录（docs/）
+Four synthetic systems (damped oscillator, nonlinear pendulum, Duffing oscillator, RC decay) were tested with 10 seeds and 0%, 1%, 5%, 10% target noise. Exact support and coefficient recovery: 40/40, 31/40, 12/40, 5/40 respectively. A separate pendulum excitation study found that wider angle coverage improved recovery in this synthetic setup. Details and raw data are in `docs/v06-results.md` and `results/`.
 
-## 迁移
+## Run
 
-若本地已有完整历史：
+Requires Node.js with ES module support. No third-party package is required for the current core:
 
 ```bash
-cd <本地目录>
-git remote add origin https://github.com/tortletortle/law-discovery.git
-git push -u origin --all
-git push origin --tags
+node test-dynamics.mjs
+node benchmark-dynamics.mjs
+node benchmark-pendulum-excitation.mjs
 ```
 
-不要用骨架 force push 覆盖已有历史。
+## Important limitations
+
+- Current dynamics discovery expects a supplied derivative/target column; raw time-series derivative estimation is not implemented.
+- Current noise tests perturb the target only, not measured state variables.
+- All V0.6 results are synthetic. No physical experiment, real sensor dataset, or PySR/SINDy comparison has been completed.
+- Prediction accuracy must not be presented as proof of unique law discovery.
+- The dimensional vector convention is SI base exponents `[M, L, T, I]`; coefficient dimensions are inferred as target dimension minus basis-term dimension.
+
+## Engineering policy
+
+1. Keep the repository private during research.
+2. Preserve existing Git history; do not force-push over prior work.
+3. Every milestone must include source, reproducible tests, raw results, and a report of limitations.
+4. Mark only verified behavior as complete.
