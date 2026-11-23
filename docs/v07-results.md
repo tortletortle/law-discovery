@@ -34,6 +34,10 @@ End-to-end synthetic trajectory: `x(t)=exp(-0.15t)cos(sqrt(4-0.15^2)t)`, 1001 sa
 
 On this signal and sampling interval, wider windows suppress measurement-noise amplification. Wider windows can also smooth away fast dynamics, so this is not a universal recommendation; the result is limited to one synthetic oscillator, one sampling interval, polynomial degree 5, and five seeds per condition.
 
+## CI status
+
+`.github/workflows/tests.yml` was added for Node.js 22 and runs the dynamics and derivative test scripts on pushes and pull requests. The latest commit currently has no reported status checks, so remote CI execution is not yet confirmed.
+
 ## Reproduction
 
 ```bash
