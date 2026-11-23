@@ -1,0 +1,7304 @@
+{
+  "summary": [
+    {
+      "system": "damped oscillator",
+      "noise": 0,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 1.1135780265329316e-25,
+      "medianTerms": 2
+    },
+    {
+      "system": "damped oscillator",
+      "noise": 0.01,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 5.101508293429893e-7,
+      "medianTerms": 2
+    },
+    {
+      "system": "damped oscillator",
+      "noise": 0.05,
+      "n": 10,
+      "exactRecoveries": 8,
+      "meanValidationNMSE": 0.00002441122470840215,
+      "medianTerms": 2
+    },
+    {
+      "system": "damped oscillator",
+      "noise": 0.1,
+      "n": 10,
+      "exactRecoveries": 3,
+      "meanValidationNMSE": 0.0002348576645048047,
+      "medianTerms": 3
+    },
+    {
+      "system": "nonlinear pendulum",
+      "noise": 0,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 1.1143067838043394e-25,
+      "medianTerms": 2
+    },
+    {
+      "system": "nonlinear pendulum",
+      "noise": 0.01,
+      "n": 10,
+      "exactRecoveries": 1,
+      "meanValidationNMSE": 0.000001514957860501353,
+      "medianTerms": 4
+    },
+    {
+      "system": "nonlinear pendulum",
+      "noise": 0.05,
+      "n": 10,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.0005369274212767593,
+      "medianTerms": 7
+    },
+    {
+      "system": "nonlinear pendulum",
+      "noise": 0.1,
+      "n": 10,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.00126702663837225,
+      "medianTerms": 7
+    },
+    {
+      "system": "Duffing oscillator",
+      "noise": 0,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 3.2268111223172217e-26,
+      "medianTerms": 3
+    },
+    {
+      "system": "Duffing oscillator",
+      "noise": 0.01,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 8.069723738396885e-7,
+      "medianTerms": 3
+    },
+    {
+      "system": "Duffing oscillator",
+      "noise": 0.05,
+      "n": 10,
+      "exactRecoveries": 3,
+      "meanValidationNMSE": 0.00004171618916491833,
+      "medianTerms": 4
+    },
+    {
+      "system": "Duffing oscillator",
+      "noise": 0.1,
+      "n": 10,
+      "exactRecoveries": 2,
+      "meanValidationNMSE": 0.0003112205025129594,
+      "medianTerms": 6
+    },
+    {
+      "system": "RC decay",
+      "noise": 0,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 1.1109644444610548e-25,
+      "medianTerms": 1
+    },
+    {
+      "system": "RC decay",
+      "noise": 0.01,
+      "n": 10,
+      "exactRecoveries": 10,
+      "meanValidationNMSE": 3.6648893662625434e-7,
+      "medianTerms": 1
+    },
+    {
+      "system": "RC decay",
+      "noise": 0.05,
+      "n": 10,
+      "exactRecoveries": 1,
+      "meanValidationNMSE": 0.00003303590497586507,
+      "medianTerms": 3
+    },
+    {
+      "system": "RC decay",
+      "noise": 0.1,
+      "n": 10,
+      "exactRecoveries": 0,
+      "meanValidationNMSE": 0.0001434261871565464,
+      "medianTerms": 4
+    }
+  ],
+  "runs": [
+    {
+      "system": "damped oscillator",
+      "seed": 1,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.395965604812736e-24,
+      "validationMSE": 2.4955032081999144e-24,
+      "validationNMSE": 1.1040226595057167e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999991883,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999999999998668,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 1,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.002146125273635892,
+      "validationMSE": 0.0000026593273394431353,
+      "validationNMSE": 1.1764992455794403e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30088589595551457,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9995824610237944,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 1,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.052920677455168125,
+      "validationMSE": 0.00005390896507398091,
+      "validationNMSE": 0.0000023849586246418213,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2972247022073777,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.004652490716924,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 1,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.20997671624213218,
+      "validationMSE": 0.0037732891933177667,
+      "validationNMSE": 0.00016693213443295002,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2611964891381681,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0154346399897465,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.02350626480075463,
+          "coefficientDimension": [
+            0,
+            -2,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 2,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.3302364014328586e-24,
+      "validationMSE": 2.373467173654154e-24,
+      "validationNMSE": 1.0959624027851195e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999991517,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999999999998673,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 2,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0019252159036071356,
+      "validationMSE": 0.000020305161154565664,
+      "validationNMSE": 9.376027380920295e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3001057159556889,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9961001412462176,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 2,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.05875411572605239,
+      "validationMSE": 0.0011210217755379713,
+      "validationNMSE": 0.000051763838671571154,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2550629066261142,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.994266415117143,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.007415564197521105,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 2,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.20714963052670182,
+      "validationMSE": 0.0050377496899365526,
+      "validationNMSE": 0.00023262104974944832,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.22931610704469427,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.007236136856981,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.014777564918835653,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 3,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.3551633474844733e-24,
+      "validationMSE": 2.4737064686098102e-24,
+      "validationNMSE": 1.1099517458548958e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2999999999999113,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999999999998663,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 3,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0020072113606205075,
+      "validationMSE": 0.000023968826363434727,
+      "validationNMSE": 0.0000010754809030813772,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3015429433026376,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9960463905859025,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 3,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.056053847808422964,
+      "validationMSE": 0.0005602467731497253,
+      "validationNMSE": 0.00002513826486117324,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2981792078396215,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9800814861029172,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 3,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.18864799736832158,
+      "validationMSE": 0.00606202425296154,
+      "validationNMSE": 0.00027200294329062977,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.259572084767186,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.049679945868109,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.009451001263999172,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 4,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.5141519591884428e-24,
+      "validationMSE": 2.2983692302281372e-24,
+      "validationNMSE": 1.0969549923801155e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2999999999999273,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999999999986726,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 4,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.002207337324418704,
+      "validationMSE": 0.000015586776279610975,
+      "validationNMSE": 7.439184196411326e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29953049777674273,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.003356678605356,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 4,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0578248397148392,
+      "validationMSE": 0.0004771481969381229,
+      "validationNMSE": 0.00002277310755176141,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.310207079812709,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.989497797537041,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 4,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.22188606219458815,
+      "validationMSE": 0.008554374336986885,
+      "validationNMSE": 0.0004082792056311451,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2535236481995514,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.923034317164905,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.007306160285562382,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 5,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.5181062242056513e-24,
+      "validationMSE": 2.283094393132431e-24,
+      "validationNMSE": 1.1151998673334986e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2999999999998956,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999999999998664,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 5,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0022758882711280677,
+      "validationMSE": 0.00000814200937553631,
+      "validationNMSE": 3.9770444019917967e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2991778950926674,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.001987608053746,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 5,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.057628154803710564,
+      "validationMSE": 0.0006066926586054682,
+      "validationNMSE": 0.000029634498443174106,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.28811336355648104,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9867851710625812,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 5,
+      "noise": 0.1,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.2159423844712937,
+      "validationMSE": 0.001437569330661429,
+      "validationNMSE": 0.00007021948508387141,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3041402108617237,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.033426522851439,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 6,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.529071507338442e-24,
+      "validationMSE": 2.377940123968713e-24,
+      "validationNMSE": 1.1101827218759385e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999998805,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999999999986673,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 6,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.002113590732919607,
+      "validationMSE": 6.899723930832337e-7,
+      "validationNMSE": 3.2212561689483384e-8,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30012861693449855,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000702334290409,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 6,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.061014047018828316,
+      "validationMSE": 0.0004495925844433138,
+      "validationNMSE": 0.000020990012073957628,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29328468770093863,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9842199314682225,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 6,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.22224432362233537,
+      "validationMSE": 0.004129080303563135,
+      "validationNMSE": 0.00019277329837066835,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.22924977055309725,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.965678042078771,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.012040355838554848,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 7,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.4546073963351785e-24,
+      "validationMSE": 2.5148689169166743e-24,
+      "validationNMSE": 1.1328925908024236e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299999999999866,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999999999986544,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 7,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0020976807117316634,
+      "validationMSE": 0.000003622966383930488,
+      "validationNMSE": 1.6320658883936142e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29967834738099364,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9984118486691322,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 7,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0543359271530077,
+      "validationMSE": 0.000046877647027327006,
+      "validationNMSE": 0.0000021117338814072924,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3033435669365114,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.00353831138561,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 7,
+      "noise": 0.1,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.21067420037368084,
+      "validationMSE": 0.0003251227937163971,
+      "validationNMSE": 0.000014646059745884359,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29003948659655443,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9946477935294533,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 8,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.5509746428540973e-24,
+      "validationMSE": 2.3120361090103128e-24,
+      "validationNMSE": 1.0668357345750654e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999995947,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999999999986744,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 8,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0024741002833040264,
+      "validationMSE": 0.000005802115829063277,
+      "validationNMSE": 2.677252521474666e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30123341844733875,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000537902212121,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 8,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.06465778070373085,
+      "validationMSE": 0.000044696812016927914,
+      "validationNMSE": 0.0000020624312957488594,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3013399689343656,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.005201377056781,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 8,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 5,
+      "trainMSE": 0.24600468613464208,
+      "validationMSE": 0.01307024978371375,
+      "validationNMSE": 0.000603096529277677,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39188151371487784,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.985533430693817,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.018843769353421094,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.049682908214929114,
+          "coefficientDimension": [
+            0,
+            -1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.011329666791772657,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 9,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.194578468769491e-24,
+      "validationMSE": 2.5565087364285882e-24,
+      "validationNMSE": 1.1621323994365225e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999984706,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999999999986517,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 9,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.0017049711461952222,
+      "validationMSE": 0.00002887290850186993,
+      "validationNMSE": 0.0000013124986415209362,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2969877542882008,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.998821110659705,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 9,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.04790459166519978,
+      "validationMSE": 0.0013615422997438524,
+      "validationNMSE": 0.00006189270535981377,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2925791619699828,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.958704559874283,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.025345904022376273,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 9,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.19514124822731438,
+      "validationMSE": 0.008401846092791826,
+      "validationNMSE": 0.0003819293640730055,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.31585881518460907,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.034697123055827,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.035139611519996075,
+          "coefficientDimension": [
+            0,
+            -1,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 10,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.5723022479488073e-24,
+      "validationMSE": 2.35797515712308e-24,
+      "validationNMSE": 1.1416451507800207e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999999999986227,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999999999998656,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 10,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.002320181265736787,
+      "validationMSE": 0.0000011051812097066382,
+      "validationNMSE": 5.350882366098322e-8,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29940341282832433,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000137399999926,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 10,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.058866590066652395,
+      "validationMSE": 0.0005238045451414193,
+      "validationNMSE": 0.00002536069632077222,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.28727922226725533,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.005035858841191,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "damped oscillator",
+      "seed": 10,
+      "noise": 0.1,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.22375200531001938,
+      "validationMSE": 0.00012550671990101822,
+      "validationNMSE": 0.000006076575392767157,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29462322490868287,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.005442039883181,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 1,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.8118108176605914e-24,
+      "validationMSE": 3.0878865798114157e-24,
+      "validationNMSE": 1.1239237886494052e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1500000000000253,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17499999999726,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 1,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0026199639225285096,
+      "validationMSE": 0.00004309057175330388,
+      "validationNMSE": 0.00000156840341794549,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15308360561541487,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.0123837336431165,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.16512907913787972,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.180150025853775,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 1,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0632842048597153,
+      "validationMSE": 0.0005375225789274914,
+      "validationNMSE": 0.000019564656854387472,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15957317547545766,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 7.125219857633111,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.0657884949881802,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -15.342579835842919,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 1,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.2519189860658707,
+      "validationMSE": 0.008932758773362982,
+      "validationNMSE": 0.00032513305861974005,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.5824822053456404,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1439926519805506,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 3.750054792199086,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7373324753151403,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.3511963652043109,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -12.222821924504737,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.598043862442946,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 2,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.147069984943876e-24,
+      "validationMSE": 3.1724740001701074e-24,
+      "validationNMSE": 1.1247597721943018e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1500000000000272,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997267,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 2,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.002910473105115451,
+      "validationMSE": 0.00006576502502021153,
+      "validationNMSE": 0.000002331614208851497,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15140383958682618,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.1608268821870733,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.4779378325095115,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.003070936741212,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 2,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.1251070769126786,
+      "validationMSE": 0.06562498217900886,
+      "validationNMSE": 0.0023266491703938103,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -14.162443300120891,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 2.191405177511156,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 6.012738130122509,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 2,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.33497696597077553,
+      "validationMSE": 0.07037685325588477,
+      "validationNMSE": 0.002495120635554346,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -18.663207337537212,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 2.9724645486663093,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 10.379453466391979,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 3,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.1612897185553386e-24,
+      "validationMSE": 3.079261183635723e-24,
+      "validationNMSE": 1.1247734606192684e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14999999999992375,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997274,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 3,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 0.002637282848157545,
+      "validationMSE": 0.000028657071076239377,
+      "validationNMSE": 0.0000010467677499047524,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14763668599622026,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17042261705095,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 3,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0654951783627598,
+      "validationMSE": 0.003711216188562546,
+      "validationNMSE": 0.00013556100722145054,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.8897222586735236,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.17454413200882918,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -16.290557910890033,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.7885222170147558,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 2.456558173614411,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 8.25228799414711,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.9573960426921497,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 3,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.3765089324218667,
+      "validationMSE": 0.07531312899875431,
+      "validationNMSE": 0.002750991347670477,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.7481146080134544,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 27.687028395264875,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7534940158137898,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -4.186681561394246,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -36.05155113375851,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.869139103907317,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 4,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.019434709701349e-24,
+      "validationMSE": 3.2065706093648078e-24,
+      "validationNMSE": 1.1336352254590992e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1499999999999158,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997258,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 4,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0023453505802728918,
+      "validationMSE": 0.000044678765363962286,
+      "validationNMSE": 0.0000015795511285074357,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.3320022561006184,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15050228830627516,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 3.024366252871074,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.147015258105621,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.45586308489981064,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -11.222390922733574,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.33007475759616234,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 4,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.05973483945912945,
+      "validationMSE": 0.0028064041123657727,
+      "validationNMSE": 0.00009921623273660983,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.1757346848405998,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15243026249081804,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -8.49206026735788,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.46445246619608443,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.3280636737011855,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 0.29156061003157324,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.2279136896347167,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 4,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.289338130003676,
+      "validationMSE": 0.003878290470289183,
+      "validationNMSE": 0.00013711117662096558,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -2.9709653187478344,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.13376513289760203,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 3.0265508784743864,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.265133244830639,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.5037972270437439,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -11.172969784921875,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 3.061231515106763,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 5,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.007757774957719e-24,
+      "validationMSE": 2.767397803502395e-24,
+      "validationNMSE": 1.1028285001247843e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14999999999996638,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.17499999999728,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 5,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0026375479480420043,
+      "validationMSE": 0.000014598576105617372,
+      "validationNMSE": 5.817640590066179e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15009612148763668,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 2.4970477345559283,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.3771778877770366,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -10.69255991146699,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 5,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.06610790304423904,
+      "validationMSE": 0.0009686812816152175,
+      "validationNMSE": 0.00003860266578049048,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.083539309746005,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15428302886449952,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 8.098664049251633,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.4542871147924704,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.192082213989123,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -16.352096953414886,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.1076823738153525,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 5,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.3466305428738145,
+      "validationMSE": 0.07720374390479333,
+      "validationNMSE": 0.003076626316129383,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -2.5440742979881747,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 19.669365489480526,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.1562808965901124,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -2.861226523950359,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -28.094247419777943,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 2.542410087212669,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 6,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.9402467937374384e-24,
+      "validationMSE": 2.5281970958553614e-24,
+      "validationNMSE": 1.1039588645505297e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14999999999994143,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997283,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 6,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0026279582882220267,
+      "validationMSE": 0.00003020647789683837,
+      "validationNMSE": 0.0000013189916678463002,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.14942669737207506,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.7852718648854435,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.27405743731463267,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.975406349755294,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 6,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.06090100156824167,
+      "validationMSE": 0.0026398956220989997,
+      "validationNMSE": 0.0001152732980463425,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.7469723066512886,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.16800865614485053,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -20.117262690025303,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.7790180805222567,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 3.0590742560187527,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": 12.076661530169634,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.77397569283485,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 6,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.26082175684339076,
+      "validationMSE": 0.005304240293212558,
+      "validationNMSE": 0.00023161418470884552,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 6.953683130964531,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15607402222552996,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 5.22510353740215,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -3.081310719049637,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7102844225515372,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -13.468364301622513,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -7.013436652237126,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 7,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.1585841753742107e-24,
+      "validationMSE": 2.994763522911229e-24,
+      "validationNMSE": 1.1171744015993905e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1499999999999204,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997267,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 7,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0024885695266718727,
+      "validationMSE": 0.00007689812677124169,
+      "validationNMSE": 0.0000028686277932310226,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.12848249929882646,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14671198116213915,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.7042802887789046,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.06605162708768458,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.5704179647264104,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -4.459165424326175,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.12818013747684273,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 7,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.13700840084094643,
+      "validationMSE": 0.06595674536418097,
+      "validationNMSE": 0.00246046764527312,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": 46.777385557811705,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -7.110546181375543,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -55.25834050259024,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 7,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 8,
+      "trainMSE": 0.27063265542002274,
+      "validationMSE": 0.0068255863130847385,
+      "validationNMSE": 0.00025462345345627697,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 2.952551017281328,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.0800587996172286,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -6.222072515306778,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -1.3327283578890101,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.007275459327167912,
+          "coefficientDimension": [
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.1004536921392096,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -2.076870873574228,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -2.934057402867715,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 8,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 2.9662959261416605e-24,
+      "validationMSE": 2.8163791078501267e-24,
+      "validationNMSE": 1.1095040518726548e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15000000000000127,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997286,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 8,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.002658110638901933,
+      "validationMSE": 0.000010483856490619832,
+      "validationNMSE": 4.1300836322682754e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15019703022083356,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.740325116768769,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.26330893810139705,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.922891622603029,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 8,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 5,
+      "trainMSE": 0.06080842348850952,
+      "validationMSE": 0.0013694961643491703,
+      "validationNMSE": 0.0000539508881859779,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -1.4469739955916763,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.13785722291579433,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.6620765360448566,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.130450124219278,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 1.4323140913926349,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 8,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.27622663759068566,
+      "validationMSE": 0.00884761694782968,
+      "validationNMSE": 0.0003485492001297925,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -6.9669009931330805,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1716849552284749,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -6.449161701391438,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 3.1124016538933543,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.0128223296919645,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -1.731966092044478,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 7.103393861879616,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 9,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.1618224200771683e-24,
+      "validationMSE": 2.800104132709017e-24,
+      "validationNMSE": 1.0959679728541336e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.15000000000003938,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997272,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 9,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0028358458579344947,
+      "validationMSE": 0.00003922198453349887,
+      "validationNMSE": 0.0000015351585813670161,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.2040676994858139,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.14896593301745512,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.540699374702123,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.09196347528881774,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.38022428252826707,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.607883350023399,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 0.20680973227050786,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 9,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0689820521733445,
+      "validationMSE": 0.002094601900767862,
+      "validationNMSE": 0.00008198325813333336,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 1.1028638569698348,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15899364756190137,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.6987901989801664,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.4586973821197912,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.42514790213963655,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -5.531626551504826,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -1.1154772633275827,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 9,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.30210109277413016,
+      "validationMSE": 0.008695536571733479,
+      "validationNMSE": 0.0003403455420845975,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -7.535753576909705,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1611549524716862,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 13.230857431160997,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 3.2796881266480815,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.967369838261312,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -21.55268066387572,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 7.6803205728695785,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 10,
+      "noise": 0,
+      "exact": true,
+      "termCount": 2,
+      "trainMSE": 3.0772674455241748e-24,
+      "validationMSE": 2.9106094812099936e-24,
+      "validationNMSE": 1.1065418001198274e-25,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.1499999999999508,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.174999999997281,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 10,
+      "noise": 0.01,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.0026399145272304587,
+      "validationMSE": 0.000050126657130000074,
+      "validationNMSE": 0.0000019056916351265688,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.39272444012748786,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.15217384621949576,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 1.1545775761713053,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.16963114995133952,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.18168114762692394,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -9.326428720412272,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": -0.4001188989988631,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 10,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.0697462726378768,
+      "validationMSE": 0.0009996807067985795,
+      "validationNMSE": 0.00003800539014207082,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -2.2989415907861184,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.1471502097625706,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 0.17919038536694107,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 1.0564406925282146,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -8.404711599454204,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 2.306637849003069,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "nonlinear pendulum",
+      "seed": 10,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.3488387371420098,
+      "validationMSE": 0.07128689182459372,
+      "validationNMSE": 0.0027101514687480743,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -5.399310412208326,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": 8.90368576359401,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 2.3990710804151076,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.4876473712350642,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "sin(x0)",
+          "coefficient": -17.011192559004286,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "cos(x0)",
+          "coefficient": 5.378967615194561,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 1,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.899161687450584e-25,
+      "validationMSE": 8.548118469711521e-25,
+      "validationNMSE": 3.444354823776259e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.399999999999853,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.999999999999983,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999997369,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 1,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0023163793521518657,
+      "validationMSE": 0.000009618006774479505,
+      "validationNMSE": 3.875452609386824e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40166203047670557,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0010838580283137,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7997382426469881,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 1,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.057459736534845644,
+      "validationMSE": 0.0027024563962908987,
+      "validationNMSE": 0.00010889201825631333,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.0637211358005321,
+          "coefficientDimension": [
+            0,
+            1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.3649387551974479,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0022310223175186,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.012852391491270107,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.0037439980642306344,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7962787156584779,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 1,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.22193937386125565,
+      "validationMSE": 0.006536389178218955,
+      "validationNMSE": 0.0002633754278891876,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.34437915981539846,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.852179174019555,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.00895173114064611,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8568061459593708,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 2,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 6.644624605916155e-25,
+      "validationMSE": 5.26940183128977e-25,
+      "validationNMSE": 2.9640118594817973e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999990526,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999996918,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999998492,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 2,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0022723567533151617,
+      "validationMSE": 0.000043611674107279335,
+      "validationNMSE": 0.0000024531345948652274,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40040976312137216,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9878278023367764,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8033171400226221,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 2,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.05181528234628555,
+      "validationMSE": 0.0007335138983367004,
+      "validationNMSE": 0.00004125978551976456,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.4335822360012668,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0115511037776956,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.004225750364632324,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7993199058672195,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 2,
+      "noise": 0.1,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.2273026920307919,
+      "validationMSE": 0.0005269007518319073,
+      "validationNMSE": 0.000029637900604315612,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40325154680037323,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9544115195352396,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8196296705738805,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 3,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 5.932274595268208e-25,
+      "validationMSE": 8.204752961105035e-25,
+      "validationNMSE": 3.0104718236764474e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999989316,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999996476,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999998658,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 3,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0018831896617426402,
+      "validationMSE": 0.000025418477074334478,
+      "validationNMSE": 9.32649762836291e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39846221571828566,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.992940189981148,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8015784695588399,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 3,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.049430783116682864,
+      "validationMSE": 0.0007812617157291967,
+      "validationNMSE": 0.000028665901255887375,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.36562933523945107,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0362234166700177,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.004627261597127325,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7898429805320544,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 3,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 8,
+      "trainMSE": 0.19141094330464445,
+      "validationMSE": 0.007710494771383563,
+      "validationNMSE": 0.0002829119580552064,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.07300115837616575,
+          "coefficientDimension": [
+            0,
+            1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.38195570409147855,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9797793456803028,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.013775374610275738,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.02856732316940871,
+          "coefficientDimension": [
+            0,
+            -1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.0038377515454751333,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.016650742214648823,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7844650436661527,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 4,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.05158842248832e-25,
+      "validationMSE": 6.8556097715724e-25,
+      "validationNMSE": 3.235944895091974e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999985986,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999997646,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999998169,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 4,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0022684396604824584,
+      "validationMSE": 0.000014427680861399772,
+      "validationNMSE": 6.810069678273799e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3980033543376466,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9964390871402422,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8008520168099634,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 4,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 5,
+      "trainMSE": 0.05877430391627949,
+      "validationMSE": 0.0014583411895558113,
+      "validationNMSE": 0.0000688357693171779,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.039453239496711104,
+          "coefficientDimension": [
+            0,
+            1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.4146962726237375,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.014776865670553,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": 0.009064347979874146,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7922604950010096,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 4,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 5,
+      "trainMSE": 0.2122108259409681,
+      "validationMSE": 0.006482012167467085,
+      "validationNMSE": 0.00030596015354048163,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40088149945598095,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9342968501029967,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.0054200348034934235,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.011376042186741098,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8254489543068695,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 5,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.774261700045716e-25,
+      "validationMSE": 8.2018717785036975e-25,
+      "validationNMSE": 3.7484234195529996e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3999999999998147,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.999999999999824,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999997828,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 5,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0023391966928427983,
+      "validationMSE": 0.000018013936204288313,
+      "validationNMSE": 8.232737863991169e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39896916963225393,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0055705122782097,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7970683509508485,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 5,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 5,
+      "trainMSE": 0.05162726794546686,
+      "validationMSE": 0.0008049061320369604,
+      "validationNMSE": 0.00003678585909836778,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.37767480994047264,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0383044053738972,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.004307708667488751,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": 0.009980815983706405,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7982220022865347,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 5,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.2012023172741975,
+      "validationMSE": 0.0046672175867861435,
+      "validationNMSE": 0.00021330140459292145,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.4576207651556827,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.007223223835914,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.01156228210484301,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.012115705971688517,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.013598641725896355,
+          "coefficientDimension": [
+            0,
+            -2,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7873079618723645,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 6,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 6.778132610017243e-25,
+      "validationMSE": 7.133034548259848e-25,
+      "validationNMSE": 3.149571475757039e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3999999999998756,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999997866,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999998102,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 6,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.002126080661684268,
+      "validationMSE": 0.000005154841195106712,
+      "validationNMSE": 2.2761057275582936e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3993776387610336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9958748582412542,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8015429361503535,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 6,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0531704797416344,
+      "validationMSE": 0.0008124610015020293,
+      "validationNMSE": 0.000035873988527365955,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39485608538429456,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.002586060802217,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8076496500978565,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 6,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.21154454411590048,
+      "validationMSE": 0.004915839320900363,
+      "validationNMSE": 0.00021705751177512192,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.05428827641017947,
+          "coefficientDimension": [
+            0,
+            1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.3506022377120256,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.076849706163491,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.015121080988785908,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.008975266997219546,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.778978596322141,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 7,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.508540075090449e-25,
+      "validationMSE": 5.108216360871795e-25,
+      "validationNMSE": 2.9172226653661764e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999989966,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999999762,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999997434,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 7,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0024569817765686054,
+      "validationMSE": 0.00001953489902850398,
+      "validationNMSE": 0.0000011156076051928562,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3999824867374423,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.992157423237266,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8018653166596261,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 7,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.06132356470064258,
+      "validationMSE": 0.0006801473147767246,
+      "validationNMSE": 0.000038842151981909796,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40185816645263006,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0092123182149204,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": 0.008159109609297811,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.804891422578928,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 7,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 6,
+      "trainMSE": 0.21211616968935018,
+      "validationMSE": 0.014286571423173943,
+      "validationNMSE": 0.0008158838040866167,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.25701053856337586,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0263465396591736,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.011947464031767266,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": 0.008906974891540607,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.027845796025463547,
+          "coefficientDimension": [
+            0,
+            -2,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8043013974865296,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 8,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 6.452489186990683e-25,
+      "validationMSE": 6.82774682465877e-25,
+      "validationNMSE": 2.931248952398975e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999991354,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999997438,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999998321,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 8,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.002077800466740449,
+      "validationMSE": 0.000022975594169513,
+      "validationNMSE": 9.863749794720133e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3991653814069154,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9992959081506907,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.801680060642374,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 8,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.056752565416288335,
+      "validationMSE": 0.0003694850804609208,
+      "validationNMSE": 0.00001586252072377117,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.40035235703471644,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.988538756877718,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8098460721525721,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 8,
+      "noise": 0.1,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.22125136454864938,
+      "validationMSE": 0.000861259281077661,
+      "validationNMSE": 0.00003697508753964319,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3865110900083796,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.026032379874462,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.795053607006463,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 9,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.846361516936754e-25,
+      "validationMSE": 9.386765305329615e-25,
+      "validationNMSE": 3.428572845518803e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39999999999985464,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.000000000000025,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.799999999999725,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 9,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0021233108389193595,
+      "validationMSE": 0.000004266475014664078,
+      "validationNMSE": 1.5583558239233122e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.39990809322428555,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.004025152339609,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7983147898270039,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 9,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.06079093257611153,
+      "validationMSE": 0.00054263098408914,
+      "validationNMSE": 0.00001981992514640635,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.36863006298196355,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.001652172528367,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.004993564374342144,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7982137709438262,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 9,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.25411657539992255,
+      "validationMSE": 0.010820887590488656,
+      "validationNMSE": 0.0003952394690862895,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.05463338857819316,
+          "coefficientDimension": [
+            0,
+            1,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.46863661057698425,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.0097688788796266,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.012496432050509718,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.01918086511134201,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.019724931627994793,
+          "coefficientDimension": [
+            0,
+            -2,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7968267026804746,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 10,
+      "noise": 0,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 7.611173649254156e-25,
+      "validationMSE": 9.380227819421838e-25,
+      "validationNMSE": 3.438288462551751e-26,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3999999999998467,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9999999999998168,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7999999999997935,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 10,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.0020843967442067154,
+      "validationMSE": 0.000008366871160676377,
+      "validationNMSE": 3.0668462571715764e-7,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.4010435912485046,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9956531944306672,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8011163921313645,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 10,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 3,
+      "trainMSE": 0.053713495929414885,
+      "validationMSE": 0.0006090354076090497,
+      "validationNMSE": 0.000022323971822219208,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3991716083974238,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -2.024768226120515,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.7979035876113995,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "Duffing oscillator",
+      "seed": 10,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 7,
+      "trainMSE": 0.23031577071223272,
+      "validationMSE": 0.015055729703880354,
+      "validationNMSE": 0.00055186230795981,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3780480687148474,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -1.9318995461962822,
+          "coefficientDimension": [
+            0,
+            0,
+            -2,
+            0
+          ]
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.015008160014320215,
+          "coefficientDimension": [
+            0,
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.0073239319185791595,
+          "coefficientDimension": [
+            0,
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.009656442704184589,
+          "coefficientDimension": [
+            0,
+            -2,
+            0,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.025656939301481156,
+          "coefficientDimension": [
+            0,
+            -2,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.8007677085876612,
+          "coefficientDimension": [
+            0,
+            -2,
+            -2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 1,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7635050319170642e-25,
+      "validationMSE": 1.8598209409887806e-25,
+      "validationNMSE": 1.111536994129122e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.4999999999998333,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 1,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001641928074469039,
+      "validationMSE": 0.0000011107627836156934,
+      "validationNMSE": 6.638563414789145e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5004073868988685,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 1,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.0039003868252414212,
+      "validationMSE": 0.000021702632112032537,
+      "validationNMSE": 0.000012970753221906175,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.513709682379445,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.008601594007823742,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.001217133652416539,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 1,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.014416069615905863,
+      "validationMSE": 0.00004288014349526045,
+      "validationNMSE": 0.00002562766380252019,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.4791302075685687,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.01761104921404607,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0033320700398720283,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 2,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7652851440046092e-25,
+      "validationMSE": 1.7412802082258593e-25,
+      "validationNMSE": 1.110844612143554e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 2,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001613131993785182,
+      "validationMSE": 2.1334582827024297e-7,
+      "validationNMSE": 1.3610334668580986e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.4998155390646466,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 2,
+      "noise": 0.05,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.003730357710723294,
+      "validationMSE": 0.000025811287454583625,
+      "validationNMSE": 0.000016466235282502948,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.497971069537755,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 2,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.015200757221359974,
+      "validationMSE": 0.00017674519980917053,
+      "validationNMSE": 0.0001127540828884138,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.45025195027091297,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.03392357480707061,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.005449398874666122,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 3,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.8695456868720983e-25,
+      "validationMSE": 1.660079241199684e-25,
+      "validationNMSE": 1.1115085636351246e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.4999999999998333,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 3,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001736462658454019,
+      "validationMSE": 1.8926682318001763e-7,
+      "validationNMSE": 1.2672388736369951e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49982200850626807,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 3,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.00393546532413393,
+      "validationMSE": 0.00006885679862241254,
+      "validationNMSE": 0.00004610317353164512,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5085228316668565,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.0040845428062720015,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.0007216746487432043,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 3,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.01564334259353625,
+      "validationMSE": 0.0007462264832668932,
+      "validationNMSE": 0.000499637069109465,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.07228063855194584,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.3172289937663252,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.0857495093629694,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.010886097324105247,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 4,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7171416058408062e-25,
+      "validationMSE": 1.5059428391464888e-25,
+      "validationNMSE": 1.1108389364027716e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 4,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001624372537258166,
+      "validationMSE": 1.5166384138593884e-7,
+      "validationNMSE": 1.1187283864731524e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.4998327630134754,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 4,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0037463252317639843,
+      "validationMSE": 0.00013977845362989638,
+      "validationNMSE": 0.00010310573862834006,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.05841998899591678,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.6093868301011856,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.05008153339345997,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.006545290481269037,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 4,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.013926049177929318,
+      "validationMSE": 0.0002158959843558933,
+      "validationNMSE": 0.0001592528344378954,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.02986991287399299,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.5955457286346794,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.05541172165630005,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.008191094335423149,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 5,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.664151602027547e-25,
+      "validationMSE": 1.9585700050291376e-25,
+      "validationNMSE": 1.1107783842020957e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 5,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001348989883462763,
+      "validationMSE": 2.3002670548596015e-7,
+      "validationNMSE": 1.3045675752561368e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5001805939904355,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 5,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.0034111745191533495,
+      "validationMSE": 0.00006023483733402563,
+      "validationNMSE": 0.000034161431613249725,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5205899954408978,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.018177503291649674,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.0034075911371898213,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 5,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.01493012833593334,
+      "validationMSE": 0.000035079111900334255,
+      "validationNMSE": 0.000019894677818941735,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.48252625474142397,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.014364821564625289,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0026474692927848653,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 6,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.6292455827574657e-25,
+      "validationMSE": 1.7298997554237044e-25,
+      "validationNMSE": 1.1108274984122257e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 6,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.00012741696825785528,
+      "validationMSE": 5.036772709061215e-7,
+      "validationNMSE": 3.2342831490296725e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5002843537914742,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 6,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.003972067984951492,
+      "validationMSE": 0.000026573843630572394,
+      "validationNMSE": 0.00001706396925648233,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.48498465548009306,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.009304215800843773,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0014954538343670079,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 6,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.014604209495494071,
+      "validationMSE": 0.00012193455100223749,
+      "validationNMSE": 0.00007829832441745047,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.028172691387425012,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.44558509130626167,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.01999577340727503,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0020304471867478935,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 7,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.6714306525190217e-25,
+      "validationMSE": 1.7742105014548142e-25,
+      "validationNMSE": 1.1108484730025347e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 7,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.00014465086005569367,
+      "validationMSE": 0.0000030899011246483145,
+      "validationNMSE": 0.0000019346137018295694,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5006954519576918,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 7,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.0038094210045878565,
+      "validationMSE": 0.00002153112655027953,
+      "validationNMSE": 0.000013480823741484032,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.023073866406553168,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.45215271013187824,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.02397705496645224,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.003393524270224994,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 7,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.015384680269546008,
+      "validationMSE": 0.00019450073066052103,
+      "validationNMSE": 0.00012177858234688153,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.04443324229147567,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4122589446252197,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.05013725167180282,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.008309034973239562,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 8,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7021976310872975e-25,
+      "validationMSE": 1.936189390213368e-25,
+      "validationNMSE": 1.110846553255356e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 8,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.00015294682728226856,
+      "validationMSE": 3.798885418048415e-7,
+      "validationNMSE": 2.1795278882227904e-7,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5002334270704215,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 8,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.003828945151117066,
+      "validationMSE": 0.00002946536971573985,
+      "validationNMSE": 0.000016905115044307392,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.022896123124917386,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.4680766131203623,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.012414156692060769,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0013492716555391152,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 8,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.01657582694628498,
+      "validationMSE": 0.00016320955186228375,
+      "validationNMSE": 0.0000936379308041709,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.023447183985819128,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.43718759362533577,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.03649018523592715,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.005384184580712192,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 9,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7572751271662418e-25,
+      "validationMSE": 1.84558981696091e-25,
+      "validationNMSE": 1.11083723892287e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 9,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.00016380816164440816,
+      "validationMSE": 2.8537904462485313e-8,
+      "validationNMSE": 1.7176604848174273e-8,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5000655297734777,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 9,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.003242714141977251,
+      "validationMSE": 0.00008173836598112417,
+      "validationNMSE": 0.000049197291806721185,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.47646465851591663,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.014763544146974754,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0024303295140920794,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 9,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.01739792781276827,
+      "validationMSE": 0.0001868437972214377,
+      "validationNMSE": 0.00011245892554668473,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.03149490067294873,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.44813534651931464,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.0320656851916686,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.0053835751168081715,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 10,
+      "noise": 0,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 1.7152486869455434e-25,
+      "validationMSE": 1.5781115231045435e-25,
+      "validationNMSE": 1.1107771905048918e-25,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.49999999999983336,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 10,
+      "noise": 0.01,
+      "exact": true,
+      "termCount": 1,
+      "trainMSE": 0.0001534718573194915,
+      "validationMSE": 3.842760802125939e-9,
+      "validationNMSE": 2.7047841582010982e-9,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.5000260037697181,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 10,
+      "noise": 0.05,
+      "exact": false,
+      "termCount": 3,
+      "trainMSE": 0.003910778881866924,
+      "validationMSE": 0.000029699619727539304,
+      "validationNMSE": 0.0000209045176320117,
+      "terms": [
+        {
+          "expression": "x0",
+          "coefficient": -0.521725373480636,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.01578034061258636,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.0025896462834794497,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "system": "RC decay",
+      "seed": 10,
+      "noise": 0.1,
+      "exact": false,
+      "termCount": 4,
+      "trainMSE": 0.014760343525897302,
+      "validationMSE": 0.0002996623399879916,
+      "validationNMSE": 0.0002109217803930404,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.0730229078109267,
+          "coefficientDimension": [
+            1,
+            2,
+            -4,
+            -1
+          ]
+        },
+        {
+          "expression": "x0",
+          "coefficient": -0.625952846571456,
+          "coefficientDimension": [
+            0,
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.05380491376747481,
+          "coefficientDimension": [
+            -1,
+            -2,
+            2,
+            1
+          ]
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.006611800479760589,
+          "coefficientDimension": [
+            -2,
+            -4,
+            5,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}
