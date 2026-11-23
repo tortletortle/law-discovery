@@ -5,7 +5,8 @@
       "noise": 0,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0000022520773022560725,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0000036504059743869277,
       "meanFitMSE": 1.3941743901029464e-25
     },
     {
@@ -13,7 +14,8 @@
       "noise": 0.001,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0019253972459986114,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0035922223791778228,
       "meanFitMSE": 0.19003683883206968
     },
     {
@@ -21,7 +23,8 @@
       "noise": 0.005,
       "n": 5,
       "exactRecoveries": 1,
-      "meanCoefficientAbsError": 0.07186109392741408,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.06111754723189113,
       "meanFitMSE": 4.81837723626454
     },
     {
@@ -29,7 +32,8 @@
       "noise": 0.01,
       "n": 5,
       "exactRecoveries": 0,
-      "meanCoefficientAbsError": 0.2536036325557173,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.16190224349243892,
       "meanFitMSE": 20.266916269764295
     },
     {
@@ -37,7 +41,8 @@
       "noise": 0.02,
       "n": 5,
       "exactRecoveries": 0,
-      "meanCoefficientAbsError": 0.4052122572005244,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.3572698348417641,
       "meanFitMSE": 79.13420279348011
     },
     {
@@ -45,7 +50,8 @@
       "noise": 0,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.000021231011615385764,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.000034418812236758356,
       "meanFitMSE": 1.10134131078554e-25
     },
     {
@@ -53,7 +59,8 @@
       "noise": 0.001,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0015251059380585574,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.002841904416144736,
       "meanFitMSE": 0.01238535750450884
     },
     {
@@ -61,7 +68,8 @@
       "noise": 0.005,
       "n": 5,
       "exactRecoveries": 4,
-      "meanCoefficientAbsError": 0.04650203813354589,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.02034412434428745,
       "meanFitMSE": 0.3174564557365587
     },
     {
@@ -69,7 +77,8 @@
       "noise": 0.01,
       "n": 5,
       "exactRecoveries": 3,
-      "meanCoefficientAbsError": 0.04173117480693637,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.02860420935248653,
       "meanFitMSE": 1.2665881329302706
     },
     {
@@ -77,7 +86,8 @@
       "noise": 0.02,
       "n": 5,
       "exactRecoveries": 1,
-      "meanCoefficientAbsError": 0.17615612689503743,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.13494802080648877,
       "meanFitMSE": 5.279837592899765
     },
     {
@@ -85,7 +95,8 @@
       "noise": 0,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0000856076359349589,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.00013881566665929768,
       "meanFitMSE": 1.1124048588417688e-25
     },
     {
@@ -93,7 +104,8 @@
       "noise": 0.001,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0009735797497425702,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0016788468732102935,
       "meanFitMSE": 0.001981520059379049
     },
     {
@@ -101,7 +113,8 @@
       "noise": 0.005,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.004506598160176007,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.007783015829155015,
       "meanFitMSE": 0.0558053104398694
     },
     {
@@ -109,7 +122,8 @@
       "noise": 0.01,
       "n": 5,
       "exactRecoveries": 4,
-      "meanCoefficientAbsError": 0.04471112595253292,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.02132083765799262,
       "meanFitMSE": 0.22253462279717562
     },
     {
@@ -117,7 +131,8 @@
       "noise": 0.02,
       "n": 5,
       "exactRecoveries": 3,
-      "meanCoefficientAbsError": 0.04466080551397715,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.04704927972903468,
       "meanFitMSE": 0.9132207647889701
     },
     {
@@ -125,7 +140,8 @@
       "noise": 0,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.00041572859888761027,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0006744944438668021,
       "meanFitMSE": 1.096667503492903e-25
     },
     {
@@ -133,7 +149,8 @@
       "noise": 0.001,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0003762416913824007,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0006257552964602953,
       "meanFitMSE": 0.00029464262527968156
     },
     {
@@ -141,7 +158,8 @@
       "noise": 0.005,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0023700264499271597,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.0036466414229350264,
       "meanFitMSE": 0.00783853952619187
     },
     {
@@ -149,7 +167,8 @@
       "noise": 0.01,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.0031876381831755394,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.004980512249607294,
       "meanFitMSE": 0.02634409955368089
     },
     {
@@ -157,7 +176,8 @@
       "noise": 0.02,
       "n": 5,
       "exactRecoveries": 5,
-      "meanCoefficientAbsError": 0.006792642362271867,
+      "validCoefficientRuns": 5,
+      "meanCoefficientAbsError": 0.010851109513593204,
       "meanFitMSE": 0.13468478119036192
     }
   ],
@@ -167,6 +187,7 @@
       "noise": 0,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0000036504059743869277,
       "terms": [
         {
           "expression": "x1",
@@ -184,6 +205,7 @@
       "noise": 0,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0000036504059743869277,
       "terms": [
         {
           "expression": "x1",
@@ -201,6 +223,7 @@
       "noise": 0,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.0000036504059743869277,
       "terms": [
         {
           "expression": "x1",
@@ -218,6 +241,7 @@
       "noise": 0,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.0000036504059743869277,
       "terms": [
         {
           "expression": "x1",
@@ -235,6 +259,7 @@
       "noise": 0,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0000036504059743869277,
       "terms": [
         {
           "expression": "x1",
@@ -252,6 +277,7 @@
       "noise": 0.001,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.004099714209456984,
       "terms": [
         {
           "expression": "x1",
@@ -269,6 +295,7 @@
       "noise": 0.001,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0011238508499977762,
       "terms": [
         {
           "expression": "x1",
@@ -286,6 +313,7 @@
       "noise": 0.001,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.005537594264925616,
       "terms": [
         {
           "expression": "x1",
@@ -303,6 +331,7 @@
       "noise": 0.001,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.0062206954865233755,
       "terms": [
         {
           "expression": "x1",
@@ -320,6 +349,7 @@
       "noise": 0.001,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0009792570849853632,
       "terms": [
         {
           "expression": "x1",
@@ -337,6 +367,7 @@
       "noise": 0.005,
       "seed": 1,
       "exact": false,
+      "coefficientAbsError": 0.07535850810765643,
       "terms": [
         {
           "expression": "x1",
@@ -358,6 +389,7 @@
       "noise": 0.005,
       "seed": 2,
       "exact": false,
+      "coefficientAbsError": 0.07096115752198662,
       "terms": [
         {
           "expression": "x1",
@@ -379,6 +411,7 @@
       "noise": 0.005,
       "seed": 3,
       "exact": false,
+      "coefficientAbsError": 0.10365238048957437,
       "terms": [
         {
           "expression": "x1",
@@ -400,6 +433,7 @@
       "noise": 0.005,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.008459285658462878,
       "terms": [
         {
           "expression": "x1",
@@ -417,6 +451,7 @@
       "noise": 0.005,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.047156404381775374,
       "terms": [
         {
           "expression": "x1",
@@ -438,6 +473,7 @@
       "noise": 0.01,
       "seed": 1,
       "exact": false,
+      "coefficientAbsError": 0.2202924481627937,
       "terms": [
         {
           "expression": "1",
@@ -479,6 +515,7 @@
       "noise": 0.01,
       "seed": 2,
       "exact": false,
+      "coefficientAbsError": 0.12250015842645912,
       "terms": [
         {
           "expression": "x1",
@@ -500,6 +537,7 @@
       "noise": 0.01,
       "seed": 3,
       "exact": false,
+      "coefficientAbsError": 0.23422378575724467,
       "terms": [
         {
           "expression": "x1",
@@ -533,6 +571,7 @@
       "noise": 0.01,
       "seed": 4,
       "exact": false,
+      "coefficientAbsError": 0.06375013158939469,
       "terms": [
         {
           "expression": "x1",
@@ -554,6 +593,7 @@
       "noise": 0.01,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.1687446935263024,
       "terms": [
         {
           "expression": "x1",
@@ -575,6 +615,7 @@
       "noise": 0.02,
       "seed": 1,
       "exact": false,
+      "coefficientAbsError": 0.5102627330585605,
       "terms": [
         {
           "expression": "1",
@@ -624,6 +665,7 @@
       "noise": 0.02,
       "seed": 2,
       "exact": false,
+      "coefficientAbsError": 0.42259674204242703,
       "terms": [
         {
           "expression": "x1",
@@ -657,6 +699,7 @@
       "noise": 0.02,
       "seed": 3,
       "exact": false,
+      "coefficientAbsError": 0.46788127375770927,
       "terms": [
         {
           "expression": "1",
@@ -706,6 +749,7 @@
       "noise": 0.02,
       "seed": 4,
       "exact": false,
+      "coefficientAbsError": 0.216606698215616,
       "terms": [
         {
           "expression": "x1",
@@ -747,6 +791,7 @@
       "noise": 0.02,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.1690017271345079,
       "terms": [
         {
           "expression": "x1",
@@ -780,6 +825,7 @@
       "noise": 0,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.000034418812236758356,
       "terms": [
         {
           "expression": "x1",
@@ -797,6 +843,7 @@
       "noise": 0,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.000034418812236758356,
       "terms": [
         {
           "expression": "x1",
@@ -814,6 +861,7 @@
       "noise": 0,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.000034418812236758356,
       "terms": [
         {
           "expression": "x1",
@@ -831,6 +879,7 @@
       "noise": 0,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.000034418812236758356,
       "terms": [
         {
           "expression": "x1",
@@ -848,6 +897,7 @@
       "noise": 0,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.000034418812236758356,
       "terms": [
         {
           "expression": "x1",
@@ -865,6 +915,7 @@
       "noise": 0.001,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.002348074160614555,
       "terms": [
         {
           "expression": "x1",
@@ -882,6 +933,7 @@
       "noise": 0.001,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0010646159085778706,
       "terms": [
         {
           "expression": "x1",
@@ -899,6 +951,7 @@
       "noise": 0.001,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.0042168238246369505,
       "terms": [
         {
           "expression": "x1",
@@ -916,6 +969,7 @@
       "noise": 0.001,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.001993489278856231,
       "terms": [
         {
           "expression": "x1",
@@ -933,6 +987,7 @@
       "noise": 0.001,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.004586518908038073,
       "terms": [
         {
           "expression": "x1",
@@ -950,6 +1005,7 @@
       "noise": 0.005,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.004643664500012079,
       "terms": [
         {
           "expression": "x1",
@@ -967,6 +1023,7 @@
       "noise": 0.005,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.009175308944122662,
       "terms": [
         {
           "expression": "x1",
@@ -984,6 +1041,7 @@
       "noise": 0.005,
       "seed": 3,
       "exact": false,
+      "coefficientAbsError": 0.0752682502998292,
       "terms": [
         {
           "expression": "x1",
@@ -1005,6 +1063,7 @@
       "noise": 0.005,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.011717491836558125,
       "terms": [
         {
           "expression": "x1",
@@ -1022,6 +1081,7 @@
       "noise": 0.005,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0009159061409151903,
       "terms": [
         {
           "expression": "x1",
@@ -1039,6 +1099,7 @@
       "noise": 0.01,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.006584951953573004,
       "terms": [
         {
           "expression": "x1",
@@ -1056,6 +1117,7 @@
       "noise": 0.01,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0040103881771562655,
       "terms": [
         {
           "expression": "x1",
@@ -1073,6 +1135,7 @@
       "noise": 0.01,
       "seed": 3,
       "exact": false,
+      "coefficientAbsError": 0.0635329535920155,
       "terms": [
         {
           "expression": "x1",
@@ -1094,6 +1157,7 @@
       "noise": 0.01,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.009520237017176747,
       "terms": [
         {
           "expression": "x1",
@@ -1111,6 +1175,7 @@
       "noise": 0.01,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.059372516022511146,
       "terms": [
         {
           "expression": "x1",
@@ -1140,6 +1205,7 @@
       "noise": 0.02,
       "seed": 1,
       "exact": false,
+      "coefficientAbsError": 0.13862055006854046,
       "terms": [
         {
           "expression": "1",
@@ -1173,6 +1239,7 @@
       "noise": 0.02,
       "seed": 2,
       "exact": false,
+      "coefficientAbsError": 0.10552629566126148,
       "terms": [
         {
           "expression": "x1",
@@ -1198,6 +1265,7 @@
       "noise": 0.02,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.039959237067187736,
       "terms": [
         {
           "expression": "x1",
@@ -1215,6 +1283,7 @@
       "noise": 0.02,
       "seed": 4,
       "exact": false,
+      "coefficientAbsError": 0.31366417601314023,
       "terms": [
         {
           "expression": "1",
@@ -1252,6 +1321,7 @@
       "noise": 0.02,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.07696984522231398,
       "terms": [
         {
           "expression": "x1",
@@ -1277,6 +1347,7 @@
       "noise": 0,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.00013881566665929768,
       "terms": [
         {
           "expression": "x1",
@@ -1294,6 +1365,7 @@
       "noise": 0,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.00013881566665929768,
       "terms": [
         {
           "expression": "x1",
@@ -1311,6 +1383,7 @@
       "noise": 0,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.00013881566665929768,
       "terms": [
         {
           "expression": "x1",
@@ -1328,6 +1401,7 @@
       "noise": 0,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.00013881566665929768,
       "terms": [
         {
           "expression": "x1",
@@ -1345,6 +1419,7 @@
       "noise": 0,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.00013881566665929768,
       "terms": [
         {
           "expression": "x1",
@@ -1362,6 +1437,7 @@
       "noise": 0.001,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0008134387395521969,
       "terms": [
         {
           "expression": "x1",
@@ -1379,6 +1455,7 @@
       "noise": 0.001,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.00222828326612845,
       "terms": [
         {
           "expression": "x1",
@@ -1396,6 +1473,7 @@
       "noise": 0.001,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.002598027884621601,
       "terms": [
         {
           "expression": "x1",
@@ -1413,6 +1491,7 @@
       "noise": 0.001,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.0005250954450009004,
       "terms": [
         {
           "expression": "x1",
@@ -1430,6 +1509,7 @@
       "noise": 0.001,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.002229389030748319,
       "terms": [
         {
           "expression": "x1",
@@ -1447,6 +1527,7 @@
       "noise": 0.005,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0008501440134089933,
       "terms": [
         {
           "expression": "x1",
@@ -1464,6 +1545,7 @@
       "noise": 0.005,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.009830457290683547,
       "terms": [
         {
           "expression": "x1",
@@ -1481,6 +1563,7 @@
       "noise": 0.005,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.016288790416475685,
       "terms": [
         {
           "expression": "x1",
@@ -1498,6 +1581,7 @@
       "noise": 0.005,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.010095807138327473,
       "terms": [
         {
           "expression": "x1",
@@ -1515,6 +1599,7 @@
       "noise": 0.005,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0018498802868793796,
       "terms": [
         {
           "expression": "x1",
@@ -1532,6 +1617,7 @@
       "noise": 0.01,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.01696223924223439,
       "terms": [
         {
           "expression": "x1",
@@ -1549,6 +1635,7 @@
       "noise": 0.01,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.006271380516027492,
       "terms": [
         {
           "expression": "x1",
@@ -1566,6 +1653,7 @@
       "noise": 0.01,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.009606661426674101,
       "terms": [
         {
           "expression": "x1",
@@ -1583,6 +1671,7 @@
       "noise": 0.01,
       "seed": 4,
       "exact": false,
+      "coefficientAbsError": 0.066548223232199,
       "terms": [
         {
           "expression": "x1",
@@ -1604,6 +1693,7 @@
       "noise": 0.01,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.007215683872828116,
       "terms": [
         {
           "expression": "x1",
@@ -1621,6 +1711,7 @@
       "noise": 0.02,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.007165350236547852,
       "terms": [
         {
           "expression": "x1",
@@ -1638,6 +1729,7 @@
       "noise": 0.02,
       "seed": 2,
       "exact": false,
+      "coefficientAbsError": 0.1407410924661452,
       "terms": [
         {
           "expression": "1",
@@ -1667,6 +1759,7 @@
       "noise": 0.02,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.00904840488674008,
       "terms": [
         {
           "expression": "x1",
@@ -1684,6 +1777,7 @@
       "noise": 0.02,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.019430585357871344,
       "terms": [
         {
           "expression": "x1",
@@ -1701,6 +1795,7 @@
       "noise": 0.02,
       "seed": 5,
       "exact": false,
+      "coefficientAbsError": 0.05886096569786892,
       "terms": [
         {
           "expression": "x1",
@@ -1722,6 +1817,7 @@
       "noise": 0,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0006744944438668021,
       "terms": [
         {
           "expression": "x1",
@@ -1739,6 +1835,7 @@
       "noise": 0,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0006744944438668021,
       "terms": [
         {
           "expression": "x1",
@@ -1756,6 +1853,7 @@
       "noise": 0,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.0006744944438668021,
       "terms": [
         {
           "expression": "x1",
@@ -1773,6 +1871,7 @@
       "noise": 0,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.0006744944438668021,
       "terms": [
         {
           "expression": "x1",
@@ -1790,6 +1889,7 @@
       "noise": 0,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0006744944438668021,
       "terms": [
         {
           "expression": "x1",
@@ -1807,6 +1907,7 @@
       "noise": 0.001,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0011906458273585052,
       "terms": [
         {
           "expression": "x1",
@@ -1824,6 +1925,7 @@
       "noise": 0.001,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.0003456819507646758,
       "terms": [
         {
           "expression": "x1",
@@ -1841,6 +1943,7 @@
       "noise": 0.001,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.00022341816849591467,
       "terms": [
         {
           "expression": "x1",
@@ -1858,6 +1961,7 @@
       "noise": 0.001,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.000949461808923413,
       "terms": [
         {
           "expression": "x1",
@@ -1875,6 +1979,7 @@
       "noise": 0.001,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0004195687267589676,
       "terms": [
         {
           "expression": "x1",
@@ -1892,6 +1997,7 @@
       "noise": 0.005,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.003916089855550808,
       "terms": [
         {
           "expression": "x1",
@@ -1909,6 +2015,7 @@
       "noise": 0.005,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.007136277525113144,
       "terms": [
         {
           "expression": "x1",
@@ -1926,6 +2033,7 @@
       "noise": 0.005,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.0009933910874888596,
       "terms": [
         {
           "expression": "x1",
@@ -1943,6 +2051,7 @@
       "noise": 0.005,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.005156782426539053,
       "terms": [
         {
           "expression": "x1",
@@ -1960,6 +2069,7 @@
       "noise": 0.005,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0010306662199832672,
       "terms": [
         {
           "expression": "x1",
@@ -1977,6 +2087,7 @@
       "noise": 0.01,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.0027028624610014873,
       "terms": [
         {
           "expression": "x1",
@@ -1994,6 +2105,7 @@
       "noise": 0.01,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.010348719257701866,
       "terms": [
         {
           "expression": "x1",
@@ -2011,6 +2123,7 @@
       "noise": 0.01,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.005362863297819764,
       "terms": [
         {
           "expression": "x1",
@@ -2028,6 +2141,7 @@
       "noise": 0.01,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.005428025630474842,
       "terms": [
         {
           "expression": "x1",
@@ -2045,6 +2159,7 @@
       "noise": 0.01,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0010600906010385103,
       "terms": [
         {
           "expression": "x1",
@@ -2062,6 +2177,7 @@
       "noise": 0.02,
       "seed": 1,
       "exact": true,
+      "coefficientAbsError": 0.017248084033666622,
       "terms": [
         {
           "expression": "x1",
@@ -2079,6 +2195,7 @@
       "noise": 0.02,
       "seed": 2,
       "exact": true,
+      "coefficientAbsError": 0.013659336165499525,
       "terms": [
         {
           "expression": "x1",
@@ -2096,6 +2213,7 @@
       "noise": 0.02,
       "seed": 3,
       "exact": true,
+      "coefficientAbsError": 0.00882702142906222,
       "terms": [
         {
           "expression": "x1",
@@ -2113,6 +2231,7 @@
       "noise": 0.02,
       "seed": 4,
       "exact": true,
+      "coefficientAbsError": 0.010743792186588053,
       "terms": [
         {
           "expression": "x1",
@@ -2130,6 +2249,7 @@
       "noise": 0.02,
       "seed": 5,
       "exact": true,
+      "coefficientAbsError": 0.0037773137531496026,
       "terms": [
         {
           "expression": "x1",
