@@ -1,0 +1,2146 @@
+{
+  "summary": [
+    {
+      "window": 9,
+      "noise": 0,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0000022520773022560725,
+      "meanFitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0019253972459986114,
+      "meanFitMSE": 0.19003683883206968
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "n": 5,
+      "exactRecoveries": 1,
+      "meanCoefficientAbsError": 0.07186109392741408,
+      "meanFitMSE": 4.81837723626454
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "n": 5,
+      "exactRecoveries": 0,
+      "meanCoefficientAbsError": 0.2536036325557173,
+      "meanFitMSE": 20.266916269764295
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "n": 5,
+      "exactRecoveries": 0,
+      "meanCoefficientAbsError": 0.4052122572005244,
+      "meanFitMSE": 79.13420279348011
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.000021231011615385764,
+      "meanFitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0015251059380585574,
+      "meanFitMSE": 0.01238535750450884
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "n": 5,
+      "exactRecoveries": 4,
+      "meanCoefficientAbsError": 0.04650203813354589,
+      "meanFitMSE": 0.3174564557365587
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "n": 5,
+      "exactRecoveries": 3,
+      "meanCoefficientAbsError": 0.04173117480693637,
+      "meanFitMSE": 1.2665881329302706
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "n": 5,
+      "exactRecoveries": 1,
+      "meanCoefficientAbsError": 0.17615612689503743,
+      "meanFitMSE": 5.279837592899765
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0000856076359349589,
+      "meanFitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0009735797497425702,
+      "meanFitMSE": 0.001981520059379049
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.004506598160176007,
+      "meanFitMSE": 0.0558053104398694
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "n": 5,
+      "exactRecoveries": 4,
+      "meanCoefficientAbsError": 0.04471112595253292,
+      "meanFitMSE": 0.22253462279717562
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "n": 5,
+      "exactRecoveries": 3,
+      "meanCoefficientAbsError": 0.04466080551397715,
+      "meanFitMSE": 0.9132207647889701
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.00041572859888761027,
+      "meanFitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0003762416913824007,
+      "meanFitMSE": 0.00029464262527968156
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0023700264499271597,
+      "meanFitMSE": 0.00783853952619187
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.0031876381831755394,
+      "meanFitMSE": 0.02634409955368089
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "n": 5,
+      "exactRecoveries": 5,
+      "meanCoefficientAbsError": 0.006792642362271867,
+      "meanFitMSE": 0.13468478119036192
+    }
+  ],
+  "runs": [
+    {
+      "window": 9,
+      "noise": 0,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999914625136986
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999963495940256
+        }
+      ],
+      "fitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999914625136986
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999963495940256
+        }
+      ],
+      "fitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999914625136986
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999963495940256
+        }
+      ],
+      "fitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999914625136986
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999963495940256
+        }
+      ],
+      "fitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29999914625136986
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999963495940256
+        }
+      ],
+      "fitMSE": 1.3941743901029464e-25
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2996912409473849
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.004099714209457
+        }
+      ],
+      "fitMSE": 0.1865751560069894
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2997907982503368
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9988761491500022
+        }
+      ],
+      "fitMSE": 0.1757082265308196
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30065581545302245
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9944624057350744
+        }
+      ],
+      "fitMSE": 0.21392641922959718
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2999954023463548
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.006220695486523
+        }
+      ],
+      "fitMSE": 0.19577645165267377
+    },
+    {
+      "window": 9,
+      "noise": 0.001,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2998855133448489
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000979257084985
+        }
+      ],
+      "fitMSE": 0.17819794074026837
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3011595703198929
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9246414918923436
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.29294374575876553
+        }
+      ],
+      "fitMSE": 4.644536230443221
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30234403852279634
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9290388424780134
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.2754311507079027
+        }
+      ],
+      "fitMSE": 4.83725270144179
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29758045051095194
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.103652380489574
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.3420880400928012
+        }
+      ],
+      "fitMSE": 4.891018197868555
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3030306088095892
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.991540714341537
+        }
+      ],
+      "fitMSE": 4.656702401059141
+    },
+    {
+      "window": 9,
+      "noise": 0.005,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29820231809373776
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9528435956182246
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.2178808671559921
+        }
+      ],
+      "fitMSE": 5.062376650509988
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.041111429518302066
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2626332452356005
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.220292448162794
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.3411089842938152
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.0323692845153474
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.14740634518216686
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.19263628608067054
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.9119105924874983
+        }
+      ],
+      "fitMSE": 24.242232060539152
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30028440404145895
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.122500158426459
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.28101819608468065
+        }
+      ],
+      "fitMSE": 20.837291824326364
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.255666128246305
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.7657762142427553
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.12265185060755038
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.3255749859578573
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.48256396234812476
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.210159008011977
+        }
+      ],
+      "fitMSE": 17.38114609710384
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30151159348661716
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9362498684106053
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.4126008086597626
+        }
+      ],
+      "fitMSE": 17.98988273596524
+    },
+    {
+      "window": 9,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2938722839055045
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.168744693526302
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.4295044023509046
+        }
+      ],
+      "fitMSE": 20.88402863088687
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": -0.07011134638594657
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.5764960515493002
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.5102627330585605
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": 0.05369973838777601
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": 0.1250727308381183
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.5735360664458872
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.12086970249617814
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": 0.16090255743043608
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.9595337954054581
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.1026465303824795
+        }
+      ],
+      "fitMSE": 79.4933090831627
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3802965347392836
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.422596742042427
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.27996473131263966
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.05060877881644144
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.3068171267118899
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 1.3905561125168477
+        }
+      ],
+      "fitMSE": 77.5162370008355
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.05422359944054733
+        },
+        {
+          "expression": "x1",
+          "coefficient": 0.1678812737577093
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.709386099686128
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": -0.12457362611035203
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.3281622717236967
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.2705430175520892
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": -0.23452716800554013
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.08941525129109701
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.886077705540133
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.8045212184338184
+        }
+      ],
+      "fitMSE": 74.89533230833977
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.516606698215616
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.8581029789716776
+        },
+        {
+          "expression": "x1^2",
+          "coefficient": 0.07598919456522894
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.16551558759567792
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.4294370302806058
+        },
+        {
+          "expression": "x1^3",
+          "coefficient": 0.16044067261827155
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.4392799455796559
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.351762933060671
+        }
+      ],
+      "fitMSE": 72.3575547747539
+    },
+    {
+      "window": 9,
+      "noise": 0.02,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29316065020940363
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.830998272865492
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.33337112479043884
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": 0.2279701331652978
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": -0.6393210030801059
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.2935967584146333
+        }
+      ],
+      "fitMSE": 91.40858080030867
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299991956789006
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999655811877632
+        }
+      ],
+      "fitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299991956789006
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999655811877632
+        }
+      ],
+      "fitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299991956789006
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999655811877632
+        }
+      ],
+      "fitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299991956789006
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999655811877632
+        }
+      ],
+      "fitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299991956789006
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999655811877632
+        }
+      ],
+      "fitMSE": 1.10134131078554e-25
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3000381057716015
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9976519258393854
+        }
+      ],
+      "fitMSE": 0.011439867090912164
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3000953239056803
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.998935384091422
+        }
+      ],
+      "fitMSE": 0.013646014431004857
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30022677044995305
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.995783176175363
+        }
+      ],
+      "fitMSE": 0.012315756566428962
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2996526895637382
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.001993489278856
+        }
+      ],
+      "fitMSE": 0.011647324234800905
+    },
+    {
+      "window": 15,
+      "noise": 0.001,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3003340267363652
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.995413481091962
+        }
+      ],
+      "fitMSE": 0.012877825199397314
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.298801431306867
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.004643664500012
+        }
+      ],
+      "fitMSE": 0.3130443571863996
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3001005003515342
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.009175308944123
+        }
+      ],
+      "fitMSE": 0.31393417158658915
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30010109926043704
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.075268250299829
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.2763451700112686
+        }
+      ],
+      "fitMSE": 0.30030117261513356
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3021123207263437
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.988282508163442
+        }
+      ],
+      "fitMSE": 0.27382762453576626
+    },
+    {
+      "window": 15,
+      "noise": 0.005,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29931972623818326
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999084093859085
+        }
+      ],
+      "fitMSE": 0.38617495275890473
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2991698942204596
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.006584951953573
+        }
+      ],
+      "fitMSE": 1.4489763186313314
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3005424817112238
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.004010388177156
+        }
+      ],
+      "fitMSE": 1.3587938170431413
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2998636181783432
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9364670464079845
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.2720081731340005
+        }
+      ],
+      "fitMSE": 1.3120417307736219
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3013905344107564
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9904797629828233
+        }
+      ],
+      "fitMSE": 1.1603548886147526
+    },
+    {
+      "window": 15,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29403418082982147
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.940627483977489
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.14416082519006396
+        },
+        {
+          "expression": "x0*x1^2",
+          "coefficient": 0.0982445570164312
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.5138919517313326
+        }
+      ],
+      "fitMSE": 1.0527739095885071
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "seed": 1,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.035028045696078286
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2740362828201596
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.8613794499314595
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.2701698242987945
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.27194004595279087
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.6908542318819296
+        }
+      ],
+      "fitMSE": 4.999912350738786
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2984898273150905
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.8944737043387385
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.13988794569446383
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.6171414677862974
+        }
+      ],
+      "fitMSE": 5.2276699346646085
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2964246140184798
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.039959237067188
+        }
+      ],
+      "fitMSE": 4.905062260762359
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.06507887175208246
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.2678687630818432
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.6863358239868598
+        },
+        {
+          "expression": "x0*x1",
+          "coefficient": -0.16366762489653608
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.5971427460847343
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": -0.45776438038553807
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -1.449822033503457
+        }
+      ],
+      "fitMSE": 5.262419286854017
+    },
+    {
+      "window": 15,
+      "noise": 0.02,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.32218139268361307
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.923030154777686
+        },
+        {
+          "expression": "x0^2*x1",
+          "coefficient": 0.2517391373959733
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.46752896029323165
+        }
+      ],
+      "fitMSE": 6.004124131479055
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29996760039478937
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9998611843333407
+        }
+      ],
+      "fitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29996760039478937
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9998611843333407
+        }
+      ],
+      "fitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29996760039478937
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9998611843333407
+        }
+      ],
+      "fitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29996760039478937
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9998611843333407
+        }
+      ],
+      "fitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29996760039478937
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9998611843333407
+        }
+      ],
+      "fitMSE": 1.1124048588417688e-25
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29991333377366003
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000813438739552
+        }
+      ],
+      "fitMSE": 0.0019095186413963193
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3003421098513993
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9977717167338715
+        }
+      ],
+      "fitMSE": 0.00211616774977145
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3003272384804189
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9974019721153784
+        }
+      ],
+      "fitMSE": 0.0022759034983404727
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29966006614085156
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000525095445001
+        }
+      ],
+      "fitMSE": 0.0015273302084062438
+    },
+    {
+      "window": 21,
+      "noise": 0.001,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3002456147140676
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9977706109692517
+        }
+      ],
+      "fitMSE": 0.002078680198980758
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30014201261050133
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.000850144013409
+        }
+      ],
+      "fitMSE": 0.05368243111441669
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29881406185313863
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0098304572906835
+        }
+      ],
+      "fitMSE": 0.05579336234521531
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2974733663936047
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.016288790416476
+        }
+      ],
+      "fitMSE": 0.05807289154236839
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29801257353946486
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0100958071383275
+        }
+      ],
+      "fitMSE": 0.0574307050182631
+    },
+    {
+      "window": 21,
+      "noise": 0.005,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3003088916316919
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9981501197131206
+        }
+      ],
+      "fitMSE": 0.05404716217908357
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29711669170312743
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.016962239242234
+        }
+      ],
+      "fitMSE": 0.19699443478683507
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29797682982476725
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0062713805160275
+        }
+      ],
+      "fitMSE": 0.20184721541300898
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29720216794134574
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.009606661426674
+        }
+      ],
+      "fitMSE": 0.2856984062869405
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29885667439376146
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.066548223232199
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": 0.22903750200154313
+        }
+      ],
+      "fitMSE": 0.2503615031352677
+    },
+    {
+      "window": 21,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29846838328984815
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.007215683872828
+        }
+      ],
+      "fitMSE": 0.17777155436382594
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29666400115718017
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.007165350236548
+        }
+      ],
+      "fitMSE": 0.9909183442266651
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "seed": 2,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "1",
+          "coefficient": 0.033581148478038475
+        },
+        {
+          "expression": "x1",
+          "coefficient": -0.3061923797065614
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.859258907533855
+        },
+        {
+          "expression": "x0^2",
+          "coefficient": -0.23172530231387947
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.5841782078843408
+        }
+      ],
+      "fitMSE": 0.9698592463763867
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2971758278823098
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.00904840488674
+        }
+      ],
+      "fitMSE": 0.6941540841787703
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29928626848640616
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.019430585357871
+        }
+      ],
+      "fitMSE": 0.9137393305062015
+    },
+    {
+      "window": 21,
+      "noise": 0.02,
+      "seed": 5,
+      "exact": false,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2951033059202882
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.941139034302131
+        },
+        {
+          "expression": "x0^3",
+          "coefficient": -0.342596542766458
+        }
+      ],
+      "fitMSE": 0.9974328186568266
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29984303724609157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999325505556133
+        }
+      ],
+      "fitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29984303724609157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999325505556133
+        }
+      ],
+      "fitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29984303724609157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999325505556133
+        }
+      ],
+      "fitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29984303724609157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999325505556133
+        }
+      ],
+      "fitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29984303724609157
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999325505556133
+        }
+      ],
+      "fitMSE": 1.096667503492903e-25
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.299967631747202
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9988093541726415
+        }
+      ],
+      "fitMSE": 0.0002627143193414944
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2996543180492353
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9999607514077926
+        }
+      ],
+      "fitMSE": 0.00035624534928759726
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29987576444531777
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999776581831504
+        }
+      ],
+      "fitMSE": 0.00025189674153671467
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2999466505032857
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9990505381910766
+        }
+      ],
+      "fitMSE": 0.0002931965322784136
+    },
+    {
+      "window": 31,
+      "noise": 0.001,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29961556146487933
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999580431273241
+        }
+      ],
+      "fitMSE": 0.00030916018395418804
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2988587016654814
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.003916089855551
+        }
+      ],
+      "fitMSE": 0.007737235933359141
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30179652700487086
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.992863722474887
+        }
+      ],
+      "fitMSE": 0.007251296541397763
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3003642821349473
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.999006608912511
+        }
+      ],
+      "fitMSE": 0.007049973415873956
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3020999492265922
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.994843217573461
+        }
+      ],
+      "fitMSE": 0.008715845675407655
+    },
+    {
+      "window": 31,
+      "noise": 0.005,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29993499931633255
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.001030666219983
+        }
+      ],
+      "fitMSE": 0.00843834606492084
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29992561213312174
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0027028624610015
+        }
+      ],
+      "fitMSE": 0.027190271680684688
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2974627052832109
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.010348719257702
+        }
+      ],
+      "fitMSE": 0.02964595530964178
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2980177220927061
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.00536286329782
+        }
+      ],
+      "fitMSE": 0.031479157711557695
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29796259793595065
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.005428025630475
+        }
+      ],
+      "fitMSE": 0.02086512031698656
+    },
+    {
+      "window": 31,
+      "noise": 0.01,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.30034245802870835
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0010600906010385
+        }
+      ],
+      "fitMSE": 0.022539992749533708
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "seed": 1,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2942254343505233
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.017248084033667
+        }
+      ],
+      "fitMSE": 0.1362019878453825
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "seed": 2,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2993026987721316
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.0136593361654995
+        }
+      ],
+      "fitMSE": 0.14554803024299398
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "seed": 3,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.2971392853683207
+        },
+        {
+          "expression": "x0",
+          "coefficient": -4.008827021429062
+        }
+      ],
+      "fitMSE": 0.13410466233416138
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "seed": 4,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.3031205342817541
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.989256207813412
+        }
+      ],
+      "fitMSE": 0.11774050291849146
+    },
+    {
+      "window": 31,
+      "noise": 0.02,
+      "seed": 5,
+      "exact": true,
+      "terms": [
+        {
+          "expression": "x1",
+          "coefficient": -0.29878223973602586
+        },
+        {
+          "expression": "x0",
+          "coefficient": -3.9962226862468504
+        }
+      ],
+      "fitMSE": 0.13982872261078033
+    }
+  ]
+}
