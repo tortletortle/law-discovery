@@ -22,18 +22,27 @@ The seeded exact-data run recovered the expected support, coefficients and coeff
 
 `benchmark-dynamics.mjs` and `results/v06-dynamics.json` record 160 runs: four systems, ten seeds, and target-noise levels 0%, 1%, 5%, 10%. Inputs are noise-free; additive uniform noise is applied only to the target. Exact recovery requires the expected basis and coefficients within 15%; prediction quality is reported separately.
 
-| Target noise | Exact support + coefficient recovery |
-|---:|---:|
-| 0% | 40/40 |
-| 1% | 31/40 |
-| 5% | 12/40 |
-| 10% | 5/40 |
+| Target noise | Exact support + coefficient recovery | Mean validation NMSE |
+|---:|---:|---:|
+| 0% | 40/40 | 9.15e-26 |
+| 1% | 31/40 | 8.00e-7 |
+| 5% | 12/40 | 1.59e-4 |
+| 10% | 5/40 | 4.89e-4 |
 
 At higher noise, sparse support recovery degrades even when validation prediction error remains small. A good predictive approximation is not proof that the original physical law was recovered.
 
 ## Experiment design study
 
-`benchmark-pendulum-excitation.mjs` and `results/v06-pendulum-excitation.json` compare state-space angle coverage for a nonlinear pendulum (20 seeds per condition, fixed threshold 0.03). At 5% target noise, exact recovery increased from 0/20 for angle range ±1.3 rad to 12/20 for ±3.0 rad. This is a synthetic state-space sampling study; it suggests that broader excitation can help distinguish `sin(theta)` from low-order polynomial approximations, but physical feasibility and safe experimental design must be checked before applying it to a real pendulum.
+`benchmark-pendulum-excitation.mjs` and `results/v06-pendulum-excitation.json` compare state-space angle coverage for a nonlinear pendulum (20 seeds per condition, fixed threshold 0.03). Exact structural recovery across 20 seeds per condition was:
+
+| Angle range | 1% noise | 5% noise | 10% noise |
+|---|---:|---:|---:|
+| ±1.3 rad | 8/20 | 0/20 | 0/20 |
+| ±2.0 rad | 18/20 | 1/20 | 0/20 |
+| ±2.6 rad | 19/20 | 7/20 | 0/20 |
+| ±3.0 rad | 20/20 | 12/20 | 3/20 |
+
+This is a synthetic state-space sampling study; it suggests broader excitation can help distinguish `sin(theta)` from low-order polynomial approximations, but physical feasibility and safe experimental design must be checked before applying it to a real pendulum.
 
 ## Reproduction
 
